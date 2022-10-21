@@ -2,6 +2,11 @@
         Update Log
     ElleHacks Website
 ***************************
+Updates As of 2022-10-21
+Updated by: Heet Narechania
+created trail html css file and made the folder
+Added skeleton structure in the file.
+
 Updates As of 2022-09-23
 Updated by: Aarushi Sabharwal
 created 2023site.html
