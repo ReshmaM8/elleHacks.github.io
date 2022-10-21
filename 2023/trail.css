@@ -1,8 +1,25 @@
 /* Add a black background color to the top navigation */
 
+.body {
+    background-color: #d6a3f4;
+}
+
 .topnav {
-    background-color: black;
+    position: absolute;
+    width: 1440px;
+    height: 106px;
+    left: 0px;
+    top: 0px;
+    background: #d6a3f4;
     overflow: hidden;
+}
+
+.nav-img {
+    position: absolute;
+    width: 80px;
+    height: 68px;
+    left: 14px;
+    top: 17px;
 }
 
 
@@ -11,11 +28,11 @@
 .topnav a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: #000;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 32px;
 }
 
 
