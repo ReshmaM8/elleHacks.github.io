@@ -4,6 +4,7 @@
 ***************************
 Updates As of 2022-11-05
 Updated by: Anusha Narraidoo
+Created folder for images
 Added About Us section to majak html file and css
 Added font style link to file
 
