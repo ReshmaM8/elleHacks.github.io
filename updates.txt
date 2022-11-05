@@ -2,6 +2,11 @@
         Update Log
     ElleHacks Website
 ***************************
+Updates As of 2022-11-05
+Updated by: Anusha Narraidoo
+Added About Us section to majak html file and css
+Added font style link to file
+
 Updates As of 2022-10-21
 Updated by: Heet Narechania
 created trail html css file and made the folder
