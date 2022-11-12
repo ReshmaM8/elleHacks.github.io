@@ -139,3 +139,94 @@ h3 {
     position: relative;
     bottom: 200px;
 }
+
+div.container {
+    position: absolute;
+    width: 100%;
+    height: 896px;
+    top: 3264px;
+
+    background: #FFFFFF;
+
+}
+
+#aboutus {
+    top: 3330px;
+
+}
+
+h2 {
+    position: absolute;
+    height: 97px;
+    width: 497px;
+    top: 66px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 85px;
+    line-height: 111px;
+    text-align: center;
+    display: block;
+
+    color: #DE8EE4;
+}
+
+p {
+    position: absolute;
+    width: 728px;
+    height: 582px;
+    top: 205px;
+    Left: 50px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    display: block;
+
+    color: #9D45D1;
+}
+
+#vector {
+    position: absolute;
+    width: 528.98px;
+    height: 616.78px;
+    top: 122px;
+    left: 887.02px;
+
+    fill: #DE8EE4;
+    mix-blend-mode: darken;
+}
+
+#ada {
+    position: absolute;
+    width: 511.59px;
+    height: 662.74px;
+    top: 190.26px;
+    left: 847px;
+
+    mix-blend-mode: screen;
+}
+
+#rect1 {
+    position: absolute;
+    top: 58px;
+    left: 1008px;
+
+    background: #9747FF;
+    mix-blend-mode: overlay;
+}
+
+#rect2 {
+    position: absolute;
+    box-sizing: border-box;
+    width: 250px;
+    height: 258px;
+    top: 205px;
+    left: 989px;
+
+    background: rgba(217, 217, 217, 0.01);
+    border: 3px solid #9D45D1;
+}
