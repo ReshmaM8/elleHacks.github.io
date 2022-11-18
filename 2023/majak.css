@@ -140,27 +140,28 @@ h3 {
     bottom: 200px;
 }
 
-div.container {
-    position: absolute;
-    width: 100%;
-    height: 896px;
-    top: 3264px;
 
-    background: #FFFFFF;
+.title-section div.container {
+  position: absolute;
+  width: 100%;
+  height: 896px;
+} 
 
+ #about {
+  top: 3264px;
+  background: #FFFFFF;
 }
 
 #aboutus {
-    top: 3330px;
-
+  position: relative;
+  top: 3330px;
 }
 
-h2 {
+.title-section h2 {
     position: absolute;
     height: 97px;
     width: 497px;
     top: 66px;
-
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 500;
@@ -168,65 +169,195 @@ h2 {
     line-height: 111px;
     text-align: center;
     display: block;
-
     color: #DE8EE4;
 }
 
-p {
+.title-section p {
     position: absolute;
     width: 728px;
     height: 582px;
     top: 205px;
     Left: 50px;
-
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
     line-height: 52px;
     display: block;
-
     color: #9D45D1;
 }
 
-#vector {
+.title-section #vector {
     position: absolute;
     width: 528.98px;
     height: 616.78px;
     top: 122px;
     left: 887.02px;
-
     fill: #DE8EE4;
     mix-blend-mode: darken;
 }
 
-#ada {
+.title-section #aboutus #ada {
     position: absolute;
     width: 511.59px;
     height: 662.74px;
     top: 190.26px;
     left: 847px;
-
     mix-blend-mode: screen;
 }
 
-#rect1 {
+.title-section #rect1 {
     position: absolute;
     top: 58px;
     left: 1008px;
-
     background: #9747FF;
     mix-blend-mode: overlay;
 }
 
-#rect2 {
+.title-section#rect2 {
     position: absolute;
     box-sizing: border-box;
     width: 250px;
     height: 258px;
     top: 205px;
     left: 989px;
-
     background: rgba(217, 217, 217, 0.01);
     border: 3px solid #9D45D1;
+}
+
+/* @Luana 
+  FAQ page
+*/
+.container-fluid#faq-page{
+  position: absolute;
+  top: 4400px
+}
+
+/* @Luana 
+  big h2 in with "FAQ" qritten;
+*/
+#faq-main-text{
+  background-color: #FFFFFF;
+  position: absolute;
+  width: 100%;
+  top: 4350px
+}
+
+#faq-main-text h2{
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 85px;  
+  line-height: 111px; 
+  text-align: center;
+  color: #9747FF;
+  padding-top: 130px;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.container-fluid#quest{
+  position: absolute;
+  top: 4750px
+}
+
+
+/* @Luana 
+  two sides od the faq
+*/
+#column-quest{
+  float: left;
+  width: 40%;
+  padding:0% 5%;
+  display: block;
+  position: relative;
+} 
+
+@media (max-width: 1000px) {
+
+  #column-quest {
+    float: left;
+    width: 100%;
+    padding:0% 5%;
+    display: block;
+    
+  } 
+}
+
+/* @Luana 
+  horizontal grey line
+*/
+.accordion-header hr{
+  border: 1px solid #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transform: rotate(-0.46deg);
+}
+/* @Luana 
+  summary = questions from the faq
+  formating bellow
+*/
+.accordion-header {	  
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  
+  letter-spacing: -0.015em;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #9747FF;
+
+  width: 100%;
+  display: block;
+  list-style: none;
+  transform: scaleX(-1);
+
+  position:relative;
+
+}
+
+.accordion-header p{
+  overflow: hidden;
+  transform: scaleX(-1);
+}
+/* @Luana 
+  details = ans from the faq
+  formating bellow
+*/
+#quest-box.container { 
+  box-shadow:0 0 20px #ffffff;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -0.015em;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #9747FF;
+
+}
+ .collapsing p , .collapse.show p {
+  margin-left: 15px;
+ }
+
+ .collapse p a{	
+  color: #9747FF;
+}
+
+/* @Luana 
+  add + and - animation
+*/
+
+
+.accordion-header::before { 
+    content:"+"; 
+    float: left;
+    font-size: 30px;
+    transform: scaleX(-1);    
+}
+.accordion-header[aria-expanded="true"]::before {
+    content:"-"; 
+    float: left;
+    font-size: 30px;
+    transform: scaleX(-1);
 }

@@ -6,8 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="majak.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="trail.js" defer></script>
 </head>
 <header>
@@ -18,7 +20,7 @@
             </div>
             <div class="nav-menu">
                 <div>
-                    <a class="nav-link" href="#about">
+                    <a class="nav-link" href="#aboutus">
                         <h3 class="nav-title">ABOUT</h3>
                     </a>
                 </div>
@@ -38,7 +40,7 @@
                     </a>
                 </div>
                 <div>
-                    <a class="nav-link" href="#faq">
+                    <a class="nav-link" href="#faq-page">
                         <h3 class="nav-title">FAQ</h3>
                     </a>
                 </div>
@@ -63,6 +65,11 @@
 </header>
 
 <body>
+    <!-- needed for bootstrap  -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
     <div class="title-section">
         <div id="ElleHacks2023" class="ElleHacks2023">ELLEHACKS 2023</div>
         <div id="tagline" class="tagline">Canada’s first hackathon for women & gender-diverse students</div>
@@ -90,9 +97,104 @@
             </article>
         </div>
     </div>
-
-
-
+    
+   <div class="container-fluid" id="faq-page"></div>
+        <div class="jumbotron text-center" id="faq-main-text">
+            <h2>FAQ</h2>
+        </div>
+        <div class="container-fluid" id="quest">
+            <div class="row" id ="faq-row">
+                <div class="col-sm" id="column-quest">
+                    <div class="container" id="quest-box">
+                        <div href="#ans1" class="accordion-header" data-toggle="collapse"><p>When and where is ElleHacks?</p><hr></div>
+                        <div id="ans1" class="collapse">
+                        <p>ElleHacks will be hosted at York University (Keele Campus) in Toronto, Ontario, Canada on February 17-19, 2023. </p>
+                        </div>
+                    </div> 
+                    <div class="container" id="quest-box">
+                        <div href="#ans2" class="accordion-header" data-toggle="collapse"><p>What's a hackathon?</p><hr></div>
+                            <div id="ans2" class="collapse">
+                                <p>A competition where students work together to design solutions for a given challenge.</p>
+                                <p>At ElleHacks, you'll get to make tons of new friends, network with recruiters, and pick up cool skills through workshops, speaker sessions, activities, and games!</p>
+                            </div>	
+                        </div>
+                        <div class="container" id="quest-box">
+                            <div href="#ans3" class="accordion-header" data-toggle="collapse"><p>Do I need to know how to code?</p><hr></div>
+                            <div id="ans3" class="collapse">
+                                <p>Nope! Students of all skill levels are welcome at ElleHacks (even if you have absolutely zero experience)! Tons of hackathon participants are total newbies, and we'll be there to support you through workshops and mentorship :)</p>
+                                <p>Still not sure? Check this out for inspiration: <a href="https://medium.com/tfogo/hackathons-are-for-beginners-77a9c9c0e000#.cj21niskl">https://medium.com/tfogo/hackathons-are-for-beginners-77a9c9c0e000#.cj21niskl</a></p>
+                            </div>
+                        </div>
+                        <div class="container" id="quest-box">
+                            <div href="#ans4" class="accordion-header" data-toggle="collapse"><p>Who can apply?</p><hr></div>
+                            <div id="ans4" class="collapse">
+                                <p>We welcome all students from underrepresented gender groups (ie. women and gender-diverse students) who either live or attend school in North America.</p>
+                                <p>Only students who are currently enrolled at a high school or college/university, or have graduated within the past 12 months, are eligible to attend. You must bring a valid student or government issued ID card for admission.</p>
+                            </div>
+                        </div>	
+                        <div class="container" id="quest-box">
+                            <div href="#ans5" class="accordion-header" data-toggle="collapse"><p>Can I still join if I'm not from an underrepresented gender group?</p><hr></div>
+                            <div id="ans5" class="collapse">
+                                <p>This event was created to support underrepresented genders in tech. As such, ElleHacks is meant to be a space for these groups to thrive.</p>
+                                <p>If this isn't you, but you would like to participate in other ways, we welcome anyone to volunteer! Please check out social media accounts in November for more information and a volunteer application.</p>
+                            </div>
+                        </div>	
+                        <div class="container" id="quest-box">
+                            <div href="#ans6" class="accordion-header" data-toggle="collapse"><p>Is ElleHacks in-person this year?</p><hr></div>
+                            <div id="ans6" class="collapse">
+                                <p>Yes! ElleHacks will be in-person at York University in Toronto. There will be no option to participate in the event virtually</p>
+                            </div>
+                        </div>
+                </div>
+                <div class="col-sm" id="column-quest">
+                        <div class="container" id="quest-box">
+                            <div href="#ans7" class="accordion-header" data-toggle="collapse"><p>What in-person accommodations are available?</p><hr></div>
+                            <div id="ans7" class="collapse">
+                                <p>This FAQ response is coming soon :)</p>
+                            </div>
+                        </div>
+                        <div class="container" id="quest-box">
+                            <div href="#ans8" class="accordion-header" data-toggle="collapse"><p>When is the last day to sign up?</p><hr></div>
+                            <div id="ans8" class="collapse">
+                                <p>Our hacker applications will close in December 2023. Apply now - there are no hard or long questions, just basic information!</p>
+                            </div>
+                        </div>
+                        
+                        <div class="container" id="quest-box">
+                            <div href="#ans9" class="accordion-header" data-toggle="collapse"><p>Will there be swag?</p><hr></div>
+                            <div id="ans9" class="collapse">
+                                <p>Yess!!</p>
+                            </div>
+                        </div>
+                        <div class="container" id="quest-box">
+                            <div href="#ans10" class="accordion-header" data-toggle="collapse"><p>I need to find a team?</p><hr></div>
+                            <div id="ans10" class="collapse">
+                                <p>At ElleHacks, we welcome you to compete in teams of 1-4 students. 
+                                    <br>
+                                    → If you already have a team, we'll ask you to list their names during registration, the first day the event. <br>
+                                    → If you'd like to look for teammates later, we'll open our Discord server a week early for you to search for a team. <br>
+                                    → If you'd like help finding a team, we can match you with a team before or on the first day of the event.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="container" id="quest-box">
+                            <div href="#ans11" class="accordion-header" data-toggle="collapse"><p>Can I start working on my project before the event?</p><hr></div>
+                            <div id="ans11" class="collapse">
+                                <p>No. All participants are required to start and complete their project during the hackathon. Any project that starts before the event will be disqualified. </p>
+                            </div>
+                        </div>
+                        
+                        <div class="container" id="quest-box">
+                            <div href="#ans12" class="accordion-header" data-toggle="collapse"><p>Can I submit a project I've used at another hackathon/school assignment/anywhere else?</p><hr></div>
+                            <div id="ans12" class="collapse">
+                                <p>No. </p>
+                            </div>
+                        </div>		
+                    </div>
+                </div>
+            </div>	
+        </div>    
+    </div> 
 
 </body>
 
