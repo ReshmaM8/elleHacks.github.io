@@ -1,0 +1,147 @@
+.team
+{
+    width: 98%;
+    margin: 0 auto;
+    padding: 10px;
+    border: 3px solid #DE8EE4;
+    border-radius: 9px;
+    font-family: 'DM Sans';
+    color:#de8ee4;
+}
+
+.team-heading
+{
+    font-size: 85px;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.grid
+{
+    display: flex;
+    margin: 0 auto;
+}
+
+.exe
+{
+    display: flex;
+    margin: 0 auto;
+}
+
+.co-chairs
+{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 600px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.lms-exe
+{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 570px;
+    margin-left: 0px;
+}
+
+.IT-exe
+{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 570px;
+    margin-right: 0px;
+}
+
+.sponsor-exe
+{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.team-member
+{
+    margin: 8px;
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: 0.3s;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transition-property: all;
+    text-align: center;
+}
+
+.team-member:hover
+{
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+
+/* image */
+.team-img
+{
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+
+.team-img-fun
+{
+    display: none;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+
+.image:hover .team-img-fun
+{
+    display: inline;
+}
+.image:hover .team-img
+{
+    display: none;
+}
+
+
+
+/* name and title */
+.team-name
+{
+    color: black;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 0;
+
+}
+
+.team-title
+{
+    color: black;
+    font-style: normal;
+    text-align: center;
+    margin-top: 4px;
+}
+
+h4 {
+    display: block;
+    font-size: 16px;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
