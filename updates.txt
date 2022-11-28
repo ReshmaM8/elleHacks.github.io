@@ -2,6 +2,12 @@
         Update Log
     ElleHacks Website
 ***************************
+Updates As of 2022-11-24
+Updated by: Anusha Narraidoo
+Added //code image to images folder
+Redid About Us html and css section based on new design
+Waiting on slideshow images.
+
 Updates As of 2022-11-05
 Updated by: Anusha Narraidoo
 Created folder for images

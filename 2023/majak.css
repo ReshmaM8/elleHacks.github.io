@@ -140,92 +140,160 @@ h3 {
     bottom: 200px;
 }
 
+/* ******************************** */
+/* <!--@Anusha About Us section --> */
 
-.title-section div.container {
+/* @Anusha About us container-fluid*/
+.container-fluid#aboutus{
   position: absolute;
-  width: 100%;
-  height: 896px;
-} 
+  display: block;
+  width: 1467px;
+  height: 1107px;
+  left: 1px;
+  top: 865px;
 
- #about {
-  top: 3264px;
-  background: #FFFFFF;
+  background: linear-gradient(180deg, #E5D5FF 0%, #F2EAFF 100%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-#aboutus {
-  position: relative;
-  top: 3330px;
-}
-
-.title-section h2 {
+/* @Anusha About us h2 title*/
+#aboutus h2 {
     position: absolute;
-    height: 97px;
-    width: 497px;
-    top: 66px;
-    font-family: 'DM Sans';
+    width: 494px;
+    height: 132px;
+    left: 13px;
+    top: 24px;
+
     font-style: normal;
-    font-weight: 500;
-    font-size: 85px;
-    line-height: 111px;
+    font-weight: 600;
+    font-size: 90px;
+    line-height: 109px;
     text-align: center;
-    display: block;
-    color: #DE8EE4;
+
+    color: #000000;
 }
 
-.title-section p {
+/* @Anusha About us 1st part of quote text*/
+#aboutus #p1 {
     position: absolute;
-    width: 728px;
-    height: 582px;
-    top: 205px;
-    Left: 50px;
-    font-family: 'DM Sans';
+    width: 225px;
+    height: 66px;
+    left: 279px;
+    top: 156px;
+
     font-style: normal;
     font-weight: 400;
-    font-size: 40px;
-    line-height: 52px;
-    display: block;
-    color: #9D45D1;
-}
+    font-size: 45px;
+    line-height: 54px;
+    text-align: center;
 
-.title-section #vector {
+    color: #8872AB;
+}
+/* @Anusha About us //code image */
+#aboutus #code{
     position: absolute;
-    width: 528.98px;
-    height: 616.78px;
-    top: 122px;
-    left: 887.02px;
-    fill: #DE8EE4;
-    mix-blend-mode: darken;
+    width: 352px;
+    height: 63px;
+    left: 503px;
+    top: 146px;
+
 }
 
-.title-section #aboutus #ada {
+/* @Anusha About us 2nd part of quote text*/
+#aboutus #p2 {
     position: absolute;
-    width: 511.59px;
-    height: 662.74px;
-    top: 190.26px;
-    left: 847px;
-    mix-blend-mode: screen;
+    width: 346px;
+    height: 54px;
+    left: 862px;
+    top: 156px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 54px;
+    text-align: center;
+
+    color: #8872AB;
 }
 
-.title-section #rect1 {
+/* @Anusha About us description text*/
+#aboutus #p3 {
     position: absolute;
-    top: 58px;
-    left: 1008px;
-    background: #9747FF;
-    mix-blend-mode: overlay;
+    width: 1317px;
+    height: 158px;
+    left: 91px;
+    top: 819px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 39px;
+    text-align: center;
+
+    color: #000000;
 }
 
-.title-section#rect2 {
+/* @Anusha About us slideshow container
+    >>>>> background to be removed
+    */
+#aboutus .slideshow-container {
     position: absolute;
-    box-sizing: border-box;
-    width: 250px;
-    height: 258px;
-    top: 205px;
-    left: 989px;
-    background: rgba(217, 217, 217, 0.01);
-    border: 3px solid #9D45D1;
+    width: 998px;
+    height: 495px;
+    left: 234px;
+    top: 256px;
+
+    background: #D9D9D9;
 }
 
-/* @Luana 
+/* @Anusha About us slideshow slides
+    made to display nothing by default
+    */
+#aboutus .slideshow-container .slides {
+    display: none;
+}
+
+/* @Anusha About us
+    Next and previous buttons of slideshow
+    */
+#aboutus .slideshow-container .prev, #aboutus .slideshow-container .next {
+  cursor: pointer;
+  position: absolute;
+  width: auto;
+
+  padding: 234px 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  user-select: none;
+}
+
+/* @Anusha About us
+    Position and border radius of background the "next button"
+    */
+#aboutus .next {
+  left: 955px;
+  border-radius: 3px 0 0 3px;
+}
+
+/* @Anusha About us
+    border radius of background the "prev button"
+    */
+ #aboutus .prev {
+   border-radius: 3px 0 0 3px;
+}
+
+/* @Anusha About us
+    Adds a translucent black background colour to buttons on hover
+    */
+#aboutus .prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+/* <!--@Anusha About Us section end here--> */
+/* **************************************** */
+
+/* @Luana
   FAQ page
 */
 .container-fluid#faq-page{
