@@ -1,0 +1,415 @@
+
+/* ************************************* */
+/* <!-- @Anusha Landing Page section --> */
+
+/* @Anusha home container */
+.container-fluid-xl#home-section {
+    width: 100%;
+    height: 865px;
+}
+
+/* @Anusha set dimension of navbar ribbon */
+#home-section .navbar {
+    position: fixed;
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 64px;
+    opacity: 0.8;
+}
+
+/* @Anusha ElleHack icon */
+#home-section .navbar .navbar-brand .nav-img {
+    position: absolute;
+    width: 59px;
+    left: 17px;
+    top: 2px;
+
+}
+
+/* @Anusha navbar menu */
+#home-section .navbar .navbar-nav {
+    position: absolute;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 917px;
+    height: 32px;
+    right: 15px;
+
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 1.1px;
+    text-align: center;
+}
+
+/* @Anusha navbar menu items */
+.navbar .nav-link {
+    color: #8872AB;
+}
+
+/* @Anusha */
+.navbar .nav-link::active {
+    color: #00000;
+}
+
+/* @Anusha set home/landing page section */
+.container-fluid#home {
+    position: absolute;
+    width: 100%;
+    height: 795px;
+    left: 0px;
+    top: 70px;
+
+    background: #E5D5FF;
+    /*background: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, #E5D5FF 100%);*/
+}
+
+/* @Anusha ElleHacks2023 title */
+#home .ElleHacks2023 {
+    position: absolute;
+    width: 953px;
+/*    height: 145px;*/
+    left: 265px;
+    top: 106px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 120px;
+    line-height: 145px;
+    letter-spacing: 1.1px;
+    text-align: center;
+
+    color: #000000;
+}
+
+/* @Anusha tagline */
+#home .tagline {
+    position: absolute;
+    width: 100%;
+    top: 235px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    text-align: center;
+
+    color: #000000;
+}
+
+/* @Anusha countdown background */
+#home .countdown {
+    position: relative;
+    width: 290px;
+    height: 74px;
+    top: 323px;
+    left: 593px;
+    border-radius: 500px;
+    background-color: #8872AB;
+}
+
+/* @Anusha countdown display */
+#home .countdown .timer {
+  position: absolute;
+  left: 22px;
+  top: 10px;
+  width: 240px;
+  height: 50px;
+  text-align: center;
+  vertical-align: middle;
+  display: table;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 58px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+/* @Anusha place date and location */
+#home .date-location {
+    position: absolute;
+    width: 394px;
+    top: 433px;
+    left: 560px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    text-align: center;
+
+    color: #000000;
+}
+
+/* @Anusha removes blue underline from icons
+ * for #home and #contactus
+**/
+.socials a {
+    text-decoration: none;
+}
+
+/* @Anusha set social icons */
+#home .socials {
+    position: absolute;
+    justify-content: space-between;
+    text-align: center;
+
+    margin: 0 auto;
+    width: 100%px;
+    top: 523px;
+    left: 595px;
+}
+
+/* @Anusha set icons spacing */
+.social-icons {
+  width: 30px;
+  margin: 0;
+  margin-left: 15px;
+  padding: 0;
+  opacity: 1;
+}
+
+/* @Anusha hover actions on icons */
+.social-icons:hover {
+  opacity: 0.7;
+}
+
+/* @Anusha */
+#home .skyline {
+    position: absolute;
+    width: 100%;
+    height: 266px;
+    left: -0.15px;
+    top: 522.81px;
+/*    mix-blend-mode: lighten;
+    filter: brightness(100%); */
+    filter: invert();
+    mix-blend-mode: darken;
+}
+/* <!-- @Anusha Landing page section end here --> */
+/* ********************************************** */
+
+
+/* ******************************************** */
+/* <!-- @Anusha Location/Contact Us section --> */
+
+/* @Anusha home location/contact us container */
+.container-fluid-xl#contactus {
+    width: 100%;
+    height: 922px;
+    top: 6820px;
+}
+
+/* @Anusha location container */
+.container-fluid#location {
+    position: absolute;
+    width: 100%;
+    height: 591px;;
+    top: 6820px;
+
+    background: #E5D5FF;
+}
+
+/* @Anusha location title */
+#location .location-title {
+    position: absolute;
+    width: 500px;
+    height: 119.32px;
+    left: 531.78px;
+    top: 13px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 109px;
+    letter-spacing: 1.1px;
+    text-align: center;
+
+    color: #000000;
+    mix-blend-mode: multiply;
+}
+
+/* @Anusha date placement */
+#location #date {
+    position: absolute;
+    width: 545px;
+    height: 170.71px;
+    left: 30px;
+    top: 100px;
+
+    font-style: normal;
+    padding-left: 100px;
+    color: #000000;
+}
+
+/* @Anusha Ellehacks event name */
+#location #ellehacks {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 1.8;
+    letter-spacing: 1.1px;
+}
+
+/* @Anusha event dates */
+#location #dates {
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 1.2;
+    letter-spacing: 1.2px;
+}
+
+/* @Anusha logo icon at date info */
+#location .logo {
+    position: absolute;
+    width: 95.27px;
+    height: 91.95px;
+    left: -10px;
+    top: 67.48px;
+
+}
+
+/* @Anusha line separator */
+#location line {
+    stroke: rgb(0,0,0);
+    stroke-width: 7;
+}
+
+/* @Anusha location placement */
+#location #location-info {
+    position: absolute;
+    width: 612.51px;
+    height: 146.76px;
+    top: 338px;
+    left: -29px;
+
+    font-style: normal;
+    text-align: center;
+    color: #000000;
+}
+
+/* @Anusha building location */
+#location #building {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 42px;
+    letter-spacing: 1.1px;
+    text-align: center;
+}
+
+/* @Anusha building address */
+#location #address {
+    width: 437.67px;
+    height: 61.54px;
+    margin-left: 70px;
+
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 1.2px;
+    text-align: center;
+
+    color: #000000;
+}
+
+/* @Anusha victor phillip db image */
+#location #db {
+    position: absolute;
+    width: 365px;
+    height: 326px;
+    left: 550px;
+    top: 158px;
+    border: 6px solid #000000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+/* @Anusha google map image */
+#location #map {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 470px;
+    height: 321px;
+    right: 30.8px;
+    top: 163px;
+
+    border: 5px solid #000000;
+}
+
+/* @Anusha contact us container */
+.container-fluid#contact-us {
+    position: absolute;
+    width: 100%;
+    height: 331px;
+    top: 7411px;
+
+    background: #8872AB;
+}
+
+/* @Anusha contact-us title */
+#contact-us .contact-title {
+    position: absolute;
+    width: 800px;
+    height: 90.2px;
+    left: -25px;
+    top: 6px;
+    display: block;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 90px;
+    line-height: 109px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+/* @Anusha contact-us text line */
+#contact-us p {
+    position: absolute;
+    width: 684px;
+    height: 25px;
+    left: 10px;
+    top: 136px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #FFFFFF;
+}
+
+/* @Anusha social media icons in contact-us */
+#contact-us .socials {
+    position: absolute;
+    width: 307px;
+    height: 35px;
+    left: 10px;
+    top: 190px;
+}
+
+/* @Anusha woman-writer image */
+#contact-us #woman-writer {
+    position: absolute;
+    width: 500px;
+    height: 100%;
+    right: 22px;
+}
+
+/* @Anusha rectangle stripe */
+#contact-us canvas {
+    position: absolute;
+    right: 208px;
+
+    background: rgba(255, 255, 255, 0.24);
+    mix-blend-mode: hard-light;
+}
+
+/* <!-- @Anusha Location/Contact Us section end here --> */
+/* ***************************************************** */
+
