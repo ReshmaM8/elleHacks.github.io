@@ -48,8 +48,8 @@
 }
 
 /* @Anusha */
-.navbar .nav-link::active {
-    color: #00000;
+.navbar .nav-link:active {
+    color: #000;
 }
 
 /* @Anusha set home/landing page section */
@@ -194,6 +194,477 @@
 /* <!-- @Anusha Landing page section end here --> */
 /* ********************************************** */
 
+.background
+{
+    background: linear-gradient(180deg, #E5D5FF 0%, #F2EAFF 100%);
+}
+
+/* ********************************************** */
+/* @Anusha @Hasti 'About Us' section start */
+.aboutus-section
+{
+    width: 90%;
+    font-family: "DM Sans";
+    /* background: linear-gradient(180deg, #E5D5FF 0%, #F2EAFF 100%); */
+    padding: 50px;
+    margin: 0 auto;
+}
+
+/* about us header */
+.about-us-heading {
+    display: inline;
+    font-size: 85px;
+    margin: 5px;
+    width: 50%;
+    text-align: left;
+   
+}
+
+/* flex properties */
+.grid
+{
+    display: flex;
+    margin: 0 auto;
+}
+
+.quote
+{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+    /* margin-right: 1px;
+    margin-top: 40px;
+    margin-bottom: 20px; */
+    align-items:flex-start;
+}
+
+.quote-line
+{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 8px;
+    margin-bottom: 8px ;
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.quote-line p
+{
+    margin: 0px;
+}
+
+/* Quote line p + img + p on top of carousel */
+#aboutus #p1 {
+    width: 250px;
+    height: 54px;
+    margin-left: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 54px;
+    text-align: right;
+
+    color: #8872AB;
+}
+
+#aboutus #code{
+    width: 241px;
+    height: 55px;
+    align-items: center;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#aboutus #p2 {
+    width: 400px;
+    height: 54px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 54px;
+    text-align: left;
+    color: #8872AB;
+}
+
+/*Carousel*/
+.col2
+{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 570px;
+    margin-right: 0px;
+}
+
+
+/* !!!!!!!!!!!!!!!!  CHANGE THE DIMENSION AFTER CHOOSING THE PHOTOES  !!!!!!!!!!!!!! */
+.container#carousel
+{
+    width: 500px;
+    margin: 0 auto;
+    height: 500px;
+    margin-top: 20px;
+}
+
+.carousel-inner img
+{
+    max-width: 100%;
+    max-height: 100%;
+    align-items: center;
+    background-color: white;
+    object-fit: contain;
+}
+
+/* About us description text */
+#aboutus #p3 {
+
+    margin: 10px;
+    padding: 50px;
+    font-style: normal;
+    border-bottom: solid white;
+    font-size: 30px;
+    text-align: center;
+
+    color: #000000;
+}
+
+/* 'About Us' section ends*/
+/* ********************************************** */
+
+/* ********************************************** */
+/* @Hasti 'Meet The Team' section start */
+.team
+{
+    padding: 50px;
+    width: 90%;
+    margin: 0 auto;
+
+    font-family: 'DM Sans';
+    color:black;
+}
+
+.team-heading
+{
+
+    display: inline;
+    font-size: 85px;	
+    margin: 5px;
+    width: 50%;
+    text-align: left;
+    word-spacing: -0.1em;	
+    letter-spacing: -0.03em;
+}
+
+	
+.backslash-purple {	
+    color: #8872AB;	
+}
+
+/*flex properties*/
+.grid
+{
+    display: flex;
+    margin: 0 auto;
+}
+
+.co-chairs
+{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 600px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.executives
+{
+    display: flex;
+    margin: 0 auto;
+}
+
+.lms-exe
+{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 570px;
+    margin-left: 0px;
+}
+
+.IT-exe
+{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 570px;
+    margin-right: 0px;
+}
+
+.sponsor-exe
+{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.team-member
+{
+    margin: 8px;
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: 0.3s;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transition-property: all;
+    text-align: center;
+    
+}
+
+.team-member:hover
+{
+    box-shadow: 4px 4px 20px 0 rgb(0, 0, 0 , 40%), -4px -4px 20px 0 rgba(164, 145, 194, 80%);
+}
+
+
+/* Images */
+.image
+{
+    width: 150px;
+    height: 150px;
+}
+.team-img
+{
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    /* border: solid #8872AB; */
+    border-bottom: solid 5px #8872AB;
+    
+}
+
+.team-img-fun
+{
+    display: none;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    /* border: solid #8872AB; */
+    border-bottom: solid 5px #8872AB;}
+
+.image:hover .team-img-fun
+{
+    display: inline;
+    margin: 1px;
+}
+.image:hover .team-img
+{
+    display: none;
+    margin: 1px;
+}
+
+
+
+/* Name and title */
+.team-name
+{
+    color: black;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 0;
+
+}
+
+.team-title
+{
+    color: black;
+    font-style: normal;
+    text-align: center;
+    margin-top: 4px;
+}
+
+.team-member h4 {
+    display: block;
+    font-size: 16px;
+    margin-block-start: 1.33em;
+    /* margin-block-end: 1.33em; */
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+/* 'Meet The Team' section end */
+/* ********************************************** */
+
+/* **************************************** */
+/* FAQ section starts */
+/* @Luana @Hasti
+  FAQ page
+*/
+
+  .FAQ
+  {
+    width: 90%;
+    margin: 50px;
+  }
+  
+  /* @Luana 
+    big h1 in with "FAQ" written;
+  */
+  #faq-main-text{
+    background-color: #FFFFFF;
+    position: absolute;
+    width: 100%;
+    top: 4350px
+  }
+  
+  #FAQ-section h1{
+    display: inline;
+    font-size: 85px;
+    margin: 5px;
+    margin-left: 100px;
+    width: 50%;
+    text-align: left;
+    word-spacing: -0.1em;
+    letter-spacing: -0.03em;
+    /* text-align: centr;
+    color: #9747FF; */
+    margin-bottom: 50px;
+    position: relative;
+  }
+  
+  .container-fluid#quest{
+    position: absolute;
+    top: 4750px
+  }
+  
+  
+  /* @Luana 
+    two sides of the faq
+  */
+  #column-quest{
+    float: left;
+    width: 40%;
+    padding:0% 5%;
+    display: block;
+    position: relative;
+  } 
+  
+  @media (max-width: 1000px) {
+  
+    #column-quest {
+      float: left;
+      width: 100%;
+      padding:0% 5%;
+      display: block;
+      
+    } 
+  }
+  
+  /* @Luana 
+    horizontal grey line
+  */
+  .accordion-header hr{
+    border:  solid #8872AB 2px;
+    opacity: 0.5;
+    margin-top: 1px;
+    margin-bottom: 10px;
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+    transform: rotate(-0.46deg);
+  }
+  /* @Luana 
+    summary = questions from the faq
+    formating bellow
+  */
+  .accordion-header {	  
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: black;
+    letter-spacing: -0.015em;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    /* color: #9747FF; */
+    width: 100%;
+    display: block;
+    list-style: none;
+    transform: scaleX(-1);
+    position:relative;
+  }
+  
+  .accordion-header p{
+    overflow: hidden;
+    transform: scaleX(-1);
+    margin-top: 30px;
+    margin-bottom: 5px;
+  }
+  /* @Luana 
+    details = ans from the faq
+    formating bellow
+  */
+  #quest-box.container { 
+    box-shadow:0 0 20px #ffffff;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #8872AB;
+    opacity: 1;
+    margin-bottom: 20px;
+  
+  }
+   .collapsing p , .collapse.show p {
+    margin-left: 15px;
+   }
+  
+   .collapse p a{	
+    color: #8872AB;
+  }
+  
+  /* @Luana 
+    add + and - animation
+  */
+  
+  
+  .accordion-header::before { 
+      content:"+"; 
+      color: #8872AB;
+      float: left;
+      font-size: 30px;
+      transform: scaleX(-1);    
+  }
+  .accordion-header[aria-expanded="true"]::before {
+      content:"-"; 
+      color: #8872AB;
+      float: left;
+      font-size: 30px;
+      transform: scaleX(-1);
+  }
+/* FAQ section ends */
+/* ******************************************** */
 
 /* ******************************************** */
 /* <!-- @Anusha Location/Contact Us section --> */
@@ -412,4 +883,5 @@
 
 /* <!-- @Anusha Location/Contact Us section end here --> */
 /* ***************************************************** */
+
 

@@ -1,29 +1,32 @@
 .team
 {
-    width: 98%;
-    margin: 0 auto;
+    /* width: 98%; */
+    /* margin: 0 auto; */
     padding: 10px;
-    border: 3px solid #DE8EE4;
-    border-radius: 9px;
+    /* border: 3px solid #DE8EE4; */
+    background-color: #F2EAFF;
+    /* border-radius: 9px; */
     font-family: 'DM Sans';
-    color:#de8ee4;
+    color:black;
 }
 
 .team-heading
 {
+    display: inline;
     font-size: 85px;
-    margin: auto;
+    margin: 5px;
     width: 50%;
-    text-align: center;
+    text-align: left;
+    word-spacing: -0.1em;
+    letter-spacing: -0.03em;
 }
 
+.backslash-purple {
+    color: #8872AB;
+}
+
+/*flex properties*/
 .grid
-{
-    display: flex;
-    margin: 0 auto;
-}
-
-.exe
 {
     display: flex;
     margin: 0 auto;
@@ -37,6 +40,12 @@
     max-width: 600px;
     margin-top: 40px;
     margin-bottom: 40px;
+}
+
+.executives  
+{
+    display: flex;
+    margin: 0 auto;
 }
 
 .lms-exe
@@ -88,6 +97,11 @@
 
 
 /* image */
+.image
+{
+    width: 150px;
+    height: 150px;
+}
 .team-img
 {
     display: block;
@@ -109,10 +123,12 @@
 .image:hover .team-img-fun
 {
     display: inline;
+    margin: 1px;
 }
 .image:hover .team-img
 {
     display: none;
+    margin: 1px;
 }
 
 
