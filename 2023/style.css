@@ -194,6 +194,167 @@
 /* <!-- @Anusha Landing page section end here --> */
 /* ********************************************** */
 
+
+/* <!-- @Luana Join Us page section starts here --> */
+/* ********************************************** */
+
+
+/* @Luana: main div */
+#join-us,.container-fluid{
+    position: absolute;
+    width: 110%;
+    height: 1200px;
+    left: -2%;
+    top: 3324px;
+    padding: 2%;
+    background: #8872AB;
+    
+}
+ /* @Luana: head text */   
+#join-us #join-us-head h1{
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 90px;
+        line-height: 117px;
+        padding-left: 20px;
+    
+}
+/* @Luana: 3 main cards*/
+#join-us #join-card{
+        position: relative;
+        width: 1439.08px;
+        height: 944px;
+        align-content: center;
+        margin: 50px;
+}
+/* @Luana: each card */
+#join-us .card{
+        background: #8872AB;
+        border: #8872AB;
+        float:left;
+}
+/* @Luana: img mentor, hacker and volunteer*/
+#join-us .card-img-top{
+        position: absolute;
+        width: 487px;
+        height: 477px;
+}
+/* @Luana: info and img mentor, hacker and volunteer */
+#join-us .card-img-overlay{
+        padding: 0%;
+        width: 447px;
+        
+}
+/* @Luana: img hacker */
+#join-us #hacker-card .card-img-top{
+        left: 110px;
+}
+/* @Luana: img mentor */    
+#join-us #mentor-card .card-img-top{
+        left: 75px;
+}
+/* @Luana: img volunteer */   
+#join-us #volunteer-card .card-img-top{
+        left:80px;
+}
+
+/* @Luana: persona name */ 
+#join-us .card-title{
+        position: relative;
+        width: 285px;
+        height: 36px;
+        top:500px;
+        font-family:  'DM Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 36px;
+        text-align: center;
+        
+        color: #000000;
+}
+/* @Luana: names per card */     
+#join-us #hacker-card .card-title{
+        left: 200px;   
+}
+#join-us #mentor-card .card-title{
+    left: 170px;
+}
+#join-us #volunteer-card .card-title{
+  left: 180px;
+}
+/* @Luana: button */   
+#join-us .btn{
+    position: absolute;
+    width: 281px;
+    height: 74px;
+    top:565px;
+    padding: 10px 20px;
+    margin: 4px 2px;
+    border-radius: 16px;
+    border-color: #000000;    
+
+    font-family:'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 58px;
+    text-align: center;
+    background-color: #ffffff;
+    color: #000000;
+}
+/* @Luana: btn per card */       
+#join-us #hacker-card .btn{
+    left: 200px;
+}
+    
+#join-us #mentor-card .btn{
+    left: 170px;
+}
+    
+#join-us #volunteer-card .btn{
+    width: 330px;
+    left: 145px;
+}
+
+/* @Luana: card descripition */       
+#join-us .card-text{
+    position: relative;
+    width: 333px;
+    height: 195px;
+    top:620px;
+    font-family:  'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    color: #000000;
+}
+/* @Luana: each card descripition */   
+#join-us  #hacker-card .card-text{
+    left: 190px;
+}
+    
+#join-us  #mentor-card .card-text{
+    left: 150px;
+}
+#join-us  #volunteer-card .card-text{
+    left: 140px;
+}
+
+/* @Luana: card 3 layer backgroud */
+#join-us #app-background{
+    margin-left:100px;
+    padding: -2%;     
+}
+ 
+ 
+/* <!-- @Luana Join Us page section ends here --> */
+/* ********************************************** */
+
+
 .background
 {
     background: linear-gradient(180deg, #E5D5FF 0%, #F2EAFF 100%);
@@ -665,6 +826,7 @@
   }
 /* FAQ section ends */
 /* ******************************************** */
+
 
 /* ******************************************** */
 /* <!-- @Anusha Location/Contact Us section --> */

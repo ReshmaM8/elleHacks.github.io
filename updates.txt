@@ -2,6 +2,12 @@
         Update Log
     ElleHacks Website
 ***************************
+
+Updates As of 2022-12-04
+Updated by: Luana Ribeiro Madeira
+Added phtos from join us page to the Assest folder
+Added Join Us page html and css
+
 Updates As of 2022-11-24
 Updated by: Anusha Narraidoo
 Added //code image to images folder
