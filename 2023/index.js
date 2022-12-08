@@ -53,5 +53,9 @@ var x = setInterval(function() {
 /* <!--@Anusha Landing page section end here--> */
 /* ******************************************** */
 
+$('#myCarousel').on('slide.bs.carousel', function () {
+  
+  
 
+})
 

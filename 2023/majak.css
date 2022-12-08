@@ -1,3 +1,8 @@
+body{
+  width: 98%;
+  font-family: 'DM Sans';
+}
+
 h3 {
     display: block;
     margin-block-start: 1.33em;
@@ -5,12 +10,14 @@ h3 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
+    font: bold;
 }
 
 .nav-grid {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    
 }
 
 .nav-bar {
@@ -24,6 +31,20 @@ h3 {
 .nav-menu {
     display: flex;
     flex-direction: row;
+    margin-left: 5%;
+    width: 100%;
+
+}
+
+.nav-item
+{
+  margin: 1px;
+  padding: 1px;
+}
+
+.nav-menu a
+{
+  display: block;
 }
 
 .nav-img {
@@ -35,7 +56,9 @@ h3 {
 
 .nav-link {
     text-decoration: none;
-    float: left;
+    /* float: left; */
+    width: 10%;
+    height: 10%;
     opacity: 0.7;
     transition: 0.5s;
 }
@@ -46,14 +69,18 @@ h3 {
 }
 
 .nav-title {
-    margin: 30px;
-    margin-left: 5px;
-    text-align: right;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* margin-left: 5px; */
+    text-align: center;
     color: black;
 }
 
 .grid {
     display: flex;
+    width: 100%;
 }
 
 .fullscreen {
@@ -61,15 +88,27 @@ h3 {
     height: 100%;
 }
 
+
+
+/* title section */
+.title-section
+{
+  display: block;
+}
 .ElleHacks2023 {
     text-align: center;
     vertical-align: text-top;
     font-size: 90px;
-    font-family: Inter;
-    left: 300px;
-    top: 166px;
-    width: 892px;
-    height: 116px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    /* left:50%; 
+    margin-left:-X;
+    top: 166px; */
+    top: 50%;
+    left: 225px;
+    margin: -50px 0 0 -50px;
+    width: 890px;
+    height: 115px;
     position: absolute;
     line-height: auto;
     color: #000000;
@@ -77,25 +116,34 @@ h3 {
 
 .tagline {
     position: absolute;
-    width: 1197px;
+    /* width: 1197px; */
+    width: 98%; /* hasti */
     height: 43px;
-    left: 235px;
+    margin-left: 9%;
+    margin-right: 10%;
     top: 270px;
-    font-family: 'Inter';
+    font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 40px;
+    
     line-height: 48px;
     color: #000000;
 }
 
-.register {
+.tagline p
+{
+  padding: 5px;
+  font-size: 30px;
+  color: #DE8EE4;
+}
+
+/* .register {
     position: absolute;
     left: 650px;
     right: 605px;
     top: 373px;
     bottom: 530px;
-    font-family: 'Inter';
+    font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 34px;
@@ -104,23 +152,49 @@ h3 {
     align-items: center;
     text-align: center;
     color: black;
+} */
+
+#register-button
+{
+    top: 373px;
+    bottom: 530px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 44px;
+    
+    /* display: flex;
+    align-items: center; */
+    text-align: center;
+    color: white;
+    border-radius: 37px;
+    border-style: none;
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.3);
+    width: 231px;
+    height: 66px;
+    background-color: #DE8EE4;
+    top: 340px;
+    left: 615px;
+    right: 605px;
+    position: absolute;
 }
 
-.rectangle {
+/* .rectangle {
     border-radius: 37px;
     width: 231px;
     height: 66px;
-    background-color: #8872ab;
+    background-color: #DE8EE4;
     top: 340px;
     left: 615px;
     position: absolute;
-}
+} */
 
 .place_date {
     text-align: center;
     vertical-align: text-top;
     font-size: 32px;
-    font-family: Inter;
+    font-family: 'DM Sans';
     left: 510px;
     top: 430px;
     width: 443px;
@@ -147,7 +221,8 @@ h3 {
 .container-fluid#aboutus{
   position: absolute;
   display: block;
-  width: 1467px;
+  /* width: 1467px; */
+  width: 98%;
   height: 1107px;
   left: 1px;
   top: 865px;
@@ -159,7 +234,8 @@ h3 {
 /* @Anusha About us h2 title*/
 #aboutus h2 {
     position: absolute;
-    width: 494px;
+    /* width: 494px; */
+    width: 98%;
     height: 132px;
     left: 13px;
     top: 24px;
@@ -219,7 +295,8 @@ h3 {
 /* @Anusha About us description text*/
 #aboutus #p3 {
     position: absolute;
-    width: 1317px;
+    /* width: 1317px; */
+    width: 98%;
     height: 158px;
     left: 91px;
     top: 819px;
