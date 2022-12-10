@@ -200,14 +200,22 @@
 
 
 /* @Luana: main div */
-#join-us,.container-fluid{
-    position: absolute;
-    width: 110%;
-    height: 1200px;
-    left: -2%;
-    top: 3324px;
-    padding: 2%;
+
+#join-us-blocks{
     background: #8872AB;
+}
+
+#join-us,.container-fluid{
+   position: relative;
+   width: 100%;
+   height: 1200px;
+   left: -2%;
+   top: 0px;
+   padding: 0px;
+   background: #8872AB;
+   /* border-top: 100%; */
+   border: 0;
+   margin: 0 auto;
     
 }
  /* @Luana: head text */   
@@ -508,7 +516,7 @@
 .team
 {
     padding: 50px;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
 
     font-family: 'DM Sans';
@@ -684,19 +692,24 @@
 
   .FAQ
   {
-    width: 90%;
-    margin: 50px;
+    padding: 50px;
+    width: 100%;
+    margin: 0 auto;
+    top: 200px;
+    position: relative;
   }
   
   /* @Luana 
     big h1 in with "FAQ" written;
   */
-  #faq-main-text{
+#FAQ-section{
     background-color: #FFFFFF;
-    position: absolute;
+    margin: 0 auto;
+    top: 200px;
+    position: relative;
     width: 100%;
-    top: 4350px
-  }
+    
+ }
   
   #FAQ-section h1{
     display: inline;
@@ -713,10 +726,6 @@
     position: relative;
   }
   
-  .container-fluid#quest{
-    position: absolute;
-    top: 4750px
-  }
   
   
   /* @Luana 
@@ -842,8 +851,9 @@
 .container-fluid#location {
     position: absolute;
     width: 100%;
-    height: 591px;;
-    top: 6820px;
+    height: 591px;
+    top: 7740px;
+    margin-left: 2%;
 
     background: #E5D5FF;
 }
@@ -979,7 +989,7 @@
     width: 100%;
     height: 331px;
     top: 7411px;
-
+    margin-left: 2%;
     background: #8872AB;
 }
 
