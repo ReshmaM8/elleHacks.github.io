@@ -1,0 +1,102 @@
+body {
+  background-image: url("https://cdn.glitch.global/8d47f899-99f5-4d62-8ed0-fa4415117624/img-back.png?v=1663969350895");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right;
+}
+
+#back {
+  float: right;
+  width: 80%;
+}
+
+.websiteunderconstruction {
+  text-align: left;
+  vertical-align: text-top;
+  font-size: 44px;
+  font-family: DM Sans, sans-serif;
+  line-height: auto;
+  color: #000000;
+  left: 24px;
+  top: 302px;
+  position: absolute;
+}
+.websiteunderconstruction_const {
+  text-align: left;
+  vertical-align: text-top;
+  font-size: 42px;
+  font-family: DM Sans, sans-serif;
+  line-height: auto;
+  color: #000000;
+  left: 24px;
+  top: 350px;
+  position: absolute;
+}
+.subtitle {
+  text-align: left;
+  vertical-align: text-top;
+  font-size: 16px;
+  font-family: DM Sans, serif;
+  left: 24px;
+  top: 407px;
+  width: 226px;
+  height: 36px;
+  position: absolute;
+  line-height: auto;
+  color: #000000;
+}
+
+.social_twit{
+  width: 31px;
+  height: 31px;
+  left: 224px;
+  top: 399px;
+  position: absolute;
+}
+.social{
+   width: 31px;
+  height: 31px;
+  left: 258px;
+  top: 399px;
+  position: absolute;
+}
+.contact {
+  text-align: left;
+  vertical-align: text-top;
+  font-size: 16px;
+  font-family: DM Sans, serif;
+  left: 24px;
+  top: 540px;
+  width: 409px;
+  height: 45px;
+  position: absolute;
+  line-height: auto;
+}
+
+.contact_2 {
+  text-align: left;
+  vertical-align: text-top;
+  font-size: 16px;
+  font-family: DM Sans, serif;
+  left: 24px;
+  top: 560px;
+  width: 409px;
+  height: 45px;
+  position: absolute;
+  line-height: auto;
+}
+
+.imagecredit {
+  text-align: left;
+  vertical-align: text-top;
+  font-size: 12px;
+  font-family: DM Sans, serif;
+  left: 24px;
+  top: 580px;
+  width: 112px;
+  height: 16px;
+  position: absolute;
+  line-height: auto;
+  text-decoration: underline;
+  color: #9747ff;
+}

@@ -2,6 +2,36 @@
         Update Log
     ElleHacks Website
 ***************************
+
+Updates As of 2022-12-10
+Updated by: Luana Ribeiro Madeira
+Fixed Register + Faq page bugs
+Fixed width in the page
+Fixed contact-us being cutted to left
+linked nav to resgister, about us and faq page
+
+Updates As of 2022-12-04
+Updated by: Luana Ribeiro Madeira
+Added phtos from join us page to the Assest folder
+Added Join Us page html and css
+
+Updates As of 2022-11-24
+Updated by: Anusha Narraidoo
+Added //code image to images folder
+Redid About Us html and css section based on new design
+Waiting on slideshow images.
+
+Updates As of 2022-11-05
+Updated by: Anusha Narraidoo
+Created folder for images
+Added About Us section to majak html file and css
+Added font style link to file
+
+Updates As of 2022-10-21
+Updated by: Heet Narechania
+created trail html css file and made the folder
+Added skeleton structure in the file.
+
 Updates As of 2022-09-23
 Updated by: Aarushi Sabharwal
 created 2023site.html

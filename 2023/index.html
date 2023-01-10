@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+            crossorigin="anonymous"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="index.js" defer></script>
+    <title>Ellehacks 2023</title>
+
+</head>
+<body>
+
+<!-- @Anusha landing page section -->
+<div class="container-fluid-xl" id="home-section">
+    <!--    <h1>Landing Section</h1>-->
+    <!-- Navigation bar -->
+    <div class="row" id="nav">
+        <nav class="navbar fixed-top">
+            <!-- ElleHacks logo icon -->
+            <a class="navbar-brand" href="#home">
+                <img class="nav-img" src="ElleHacks_Logo_Transparent.png" alt="home">
+            </a>
+            <!-- Navigation menu -->
+            <div class="navbar-nav">
+                <a class="nav-link" aria-current="page" href="#home">HOME</a>
+                <a class="nav-link" href="#meet-the-team-section">ABOUT US</a>
+                <a class="nav-link" href="#join-us-blocks">REGISTER</a>
+                <a class="nav-link" href="#FAQ-section">FAQ</a>
+                <a class="nav-link" href="#sponsors">SPONSORS</a>
+                <a class="nav-link" href="#location">LOCATION</a>
+                <a class="nav-link" href="#contact-us">CONTACT US</a>
+            </div>
+        </nav>
+    </div>
+    <!-- Home page section    -->
+    <div class="container-fluid" id="home">
+        <div id="ElleHacks2023" class="ElleHacks2023">ElleHacks 2023</div>
+        <div id="tagline" class="tagline">Canada’s first hackathon for women & gender-diverse students</div>
+        <!-- Countdown -->
+        <div class="countdown">
+            <p class="timer" id="timer"></p>
+        </div>
+        <!-- Date and location -->
+        <div id="date-location" class="date-location">February 17-19, 2023
+            <br> York University, Toronto, ON
+        </div>
+        <!--Social media icons-->
+        <div id="socials" class="socials">
+            <a href="mailto::info@ellehacks.com">
+                <img class="social-icons" src="Assets/socials/ic_round-email.png" alt="email">
+            </a>
+            <a href="https://www.instagram.com/ellehacks/">
+                <img class="social-icons" src="./Assets/socials/instagram.png" alt="instagram">
+            </a>
+            <a href="https://www.tiktok.com/@ellehacks">
+                <img class="social-icons" src="./Assets/socials/logos_tiktok-icon.png" alt="tiktok">
+            </a>
+            <a href="https://www.linkedin.com/company/ellehacks/">
+                <img class="social-icons" src="./Assets/socials/linkedin.png" alt="linkedin">
+            </a>
+            <a href="https://twitter.com/ellehacks">
+                <img class="social-icons" src="./Assets/socials/twitter.png" alt="twitter">
+            </a>
+            <a href="https://www.facebook.com/ellehacks/">
+                <img class="social-icons" src="./Assets/socials/facebook.png" alt="facebook">
+            </a>
+        </div>
+        <!-- Skyline image -->
+        <img class="skyline" src="./Assets/landing/white skyline.png">
+    </div>
+
+</div>
+<!-- @Anusha landing page section ends here -->
+
+<div class="background">
+    <div class="container-fluid-xl" id="meet-the-team-section">
+        
+        <div class="aboutus-section" id="aboutus" >
+            <h2 class="about-us-heading">
+            ABOUT US
+            </h2>
+    
+            <!-- Quoted text "Girls who //code write the future"-->
+            <div class="grid quote">
+            <div class="quote-line" id="p1">
+                <p>"Girls who </p>
+            </div>
+            <img class="quote-line" id="code" src="Assets/CODE Text.png" alt="ada lovelace">
+            <div class="quote-line" id="p2">
+                <p> write the future"</p>
+            </div>
+            </div>
+            
+            <!-- Slideshow -->
+        <div class="container" id="carousel"> 
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">      
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img class="d-block w-100" src="Assets/HeadShots/Visali1.png" alt="First slide">
+                </div>
+        
+                <div class="carousel-item">
+                <img class="d-block w-100" src="Assets/HeadShots/Aarushi1.png" alt="Second slide">
+                </div>
+            
+                <div class="carousel-item">
+                <img class="d-block w-100" src="Assets/HeadShots/Ayana1.png" alt="Third slide">
+                </div>
+            </div>
+        
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+            </div>
+        </div>
+            
+            
+            <!-- About us description text -->
+            <div id="p3">
+            <p>
+                ElleHacks is one of Canada's largest hackathons for women and gender-diverse students!
+                <br><br>
+                We're a free, student-run, and beginner-friendly competition where attendees pitch technical
+                solutions to global issues, participate in fun workshops, and network with recruiters and industry
+                professionals.
+            </p>
+        </div>
+    
+    
+    
+        </div>
+    </div>
+
+    <!-- Start of the 'Meet The Team' section-->
+    <div class="container-fluid-xl" id="about-us-section">
+    </div>
+    <div class="team">
+        <h2  class="team-heading">
+            Meet The Team <span class="backslash-purple">/</span>
+        </h2>
+        <!-- Co-chair Grid-->
+        <div class="grid co-chairs">
+            <div class="team-member">
+                <div class="image">
+                    <img class="team-img" src="Assets/HeadShots/Visali1.png"/>
+                    <img class="team-img-fun" src="Assets/HeadShots/Visali2.png"/>
+                </div>
+                <h4 class="team-name">Visali Thirukeswaran</h4>
+                <p class="team-title">Co-Chair</p>
+            </div>
+            <div class="team-member">
+                <div class="image">
+                    <img class="team-img" src="Assets/HeadShots/Aarushi1.png"/>
+                    <img class="team-img-fun" src="Assets/HeadShots/Aarushi2.png"/>
+                </div>
+                <h4 class="team-name">Aarushi Sabharwal</h4>
+                <p class="team-title">Co-Chair</p>
+            </div>
+            <div class="team-member">
+                <div class="image">
+                    <img class="team-img" src="Assets/HeadShots/Ayana1.png"/>
+                    <img class="team-img-fun" src="Assets/HeadShots/Ayana2.png"/>
+                </div> 
+                <h4 class="team-name">Ayana Siddiqui</h4>
+                <p class="team-title">Co-Chair</p>
+            </div>
+
+        </div>
+
+        <div class="executives">
+        <!--Logistics, Marketing, Sponsorship Executives Grid-->
+        <div class="grid lms-exe">
+            <div class="team-member">
+                <div class="image">
+                    <img class="team-img" src="Assets/HeadShots/Surpreet1.png"/>
+                    <img class="team-img-fun" src="Assets/HeadShots/Surpreet2.png"/>
+                </div> 
+                <h4 class="team-name">Surpreet Sarai</h4>
+                <p class="team-title">Logistics Executive</p>
+            </div>
+            <div class="team-member">
+                <div class="image">
+                    <img class="team-img" src="Assets/HeadShots/Bailey1.PNG"/>
+                    <img class="team-img-fun" src="Assets/HeadShots/Bailey2.PNG"/>
+                </div> 
+                <h4 class="team-name">Bailey Luu</h4>
+                <p class="team-title">Logistics Executive</p>
+            </div>
+            <div class="team-member">
+                <div class="image">
+                    <img class="team-img" src="Assets/HeadShots/Muskan1.png"/>
+                    <img class="team-img-fun" src="Assets/HeadShots/Muskan2.PNG"/>
+                </div> 
+                <h4 class="team-name">Muskan</h4>
+                <p class="team-title">Logistics Executive</p>
+            </div>
+            <div class="team-member">
+                <div class="image">
+                    <img class="team-img" src="Assets/HeadShots/Triya1.png"/>
+                    <img class="team-img-fun" src="Assets/HeadShots/Triya2.png"/>
+                </div> 
+                <h4 class="team-name">Triya Augustine</h4>
+                <p class="team-title">Logistics Executive</p>
+            </div>
+            <div class="team-member">
+                <div class="image">
+                    <img class="team-img" src="Assets/HeadShots/Manali1.png"/>
+                    <img class="team-img-fun" src="Assets/HeadShots/Manali2.png"/>
+                </div> 
+                <h4 class="team-name">Manali Bisht</h4>
+                <p class="team-title">Logistics Executive</p>
+            </div>
+            <div class="team-member">
+                <div class="image">
+                    <img class="team-img" src="Assets/HeadShots/Erika1.png"/>
+                    <img class="team-img-fun" src="Assets/HeadShots/Erika2.png"/>
+                </div> 
+                <h4 class="team-name">Erika Grandy</h4>
+                <p class="team-title">Logistics Executive</p>
+            </div>
+            <div class="team-member">
+                <div class="image">
+                    <img class="team-img" src="Assets/HeadShots/Lisette1.png"/>
+                    <img class="team-img-fun" src="Assets/HeadShots/Lisette2.png"/>
+                </div> 
+                <h4 class="team-name">Lisette Verzijlenberg</h4>
+                <p class="team-title">Marketing: Creative<br> Media Executive</p>
+            </div>
+            <div class="team-member">
+                <div class="image">
+                    <img class="team-img" src="Assets/HeadShots/Catherine1.PNG"/>
+                    <img class="team-img-fun" src="Assets/HeadShots/Catherine2.PNG"/>
+                </div> 
+                <h4 class="team-name">Catherine</h4>
+                <p class="team-title">Marketing: Creative<br> Media Executive</p>
+            </div>
+        </div>
+
+            <!--IT Executives Grid-->
+            <div class="grid IT-exe">
+            <div class="team-member">
+                <div class="image">
+                    <img class="team-img" src="Assets/HeadShots/Reshma1.png"/>
+                    <img class="team-img-fun" src="Assets/HeadShots/Reshma2.png"/>
+                </div> 
+                <h4 class="team-name">Reshma Menon</h4>
+                <p class="team-title">IT Team Lead</p>
+            </div>
+            <div class="team-member">
+                <div class="image">
+                    <img class="team-img" src="Assets/HeadShots/Anusha1.png"/>
+                    <img class="team-img-fun" src="Assets/HeadShots/Anusha2.png"/>
+                </div> 
+                <h4 class="team-name">Anusha Narraidoo</h4>
+                <p class="team-title">IT Executive</p>
+            </div>
+            <div class="team-member">
+                <div class="image">
+                    <img class="team-img" src="Assets/HeadShots/Steeve1.png"/>
+                    <img class="team-img-fun" src="Assets/HeadShots/Steeve2.png"/>
+                </div> 
+                <h4 class="team-name">Steeve Otoka-Eyota</h4>
+                <p class="team-title">IT Executive</p>
+            </div>
+            <div class="team-member">
+                <div class="image">
+                    <img class="team-img" src="Assets/HeadShots/Hasti1.png"/>
+                    <img class="team-img-fun" src="Assets/HeadShots/Hasti2.png"/>
+                </div> 
+                <h4 class="team-name">Hasti Ghaneshirazi</h4>
+                <p class="team-title">IT Executive</p>
+            </div>
+            <div class="team-member">
+                <div class="image">
+                    <img class="team-img" src="Assets/HeadShots/Luana1.png"/>
+                    <img class="team-img-fun" src="Assets/HeadShots/Luana2.png"/>
+                </div> 
+                <h4 class="team-name">Luana Ribeiro Madeira</h4>
+                <p class="team-title">IT Executive</p>
+            </div>
+            <div class="team-member">
+                <div class="image">
+                    <img class="team-img" src="Assets/HeadShots/Batul1.png"/>
+                    <img class="team-img-fun" src="Assets/HeadShots/Batul2.png"/>
+                </div> 
+                <h4 class="team-name">Batul</h4>
+                <p class="team-title">IT Executive</p>
+            </div>
+            <div class="team-member">
+                <div class="image">
+                    <img class="team-img" src="Assets/HeadShots/Heet1.png"/>
+                    <img class="team-img-fun" src="Assets/HeadShots/Heet2.png"/>
+                </div> 
+                <h4 class="team-name">Heet</h4>
+                <p class="team-title">IT Executive</p>
+            </div>
+        </div>
+        </div>
+
+            <!--Sponsorship Executives Grid-->
+            <div class="grid sponsor-exe">
+            <div class="team-member">
+                <div class="image">
+                    <img class="team-img" src="Assets/HeadShots/Camille1.PNG"/>
+                    <img class="team-img-fun" src="Assets/HeadShots/Camille2.PNG"/>
+                </div> 
+                <h4 class="team-name">Camillie</h4>
+                <p class="team-title">Sponsorship Executive</p>
+            </div>
+            <div class="team-member">
+                <div class="image">
+                    <img class="team-img" src="Assets/logo.jpg"/>
+                    <img class="team-img-fun" src="Assets/logo.jpg"/>
+                </div> 
+                <h4 class="team-name">ELLE '23</h4>
+                <p class="team-title">Hacker #1</p>
+            </div>
+            </div>
+
+
+    </div>
+</div>
+
+
+<!--End of 'Meet The Team' section -->
+
+<!-- @Luana register page section starts here -->
+
+
+<div class="container-fluid-xl p-5 border" id="join-us-blocks">
+        <div class="container-fluid" id="join-us">
+        <div id="join-us-head">
+            <h1>JOIN US</h1>
+        </div>
+        <div class="card-deck" id="join-us-cards">
+            <div class="card" id="hacker-card">
+                <img class="card img-fluid " id="app-background" width="458.5px" height="918px" src="Assets/join-us/hacker-background.png">
+                <div class="card-img-overlay bg-transparent">
+                    <img class="card-img-top" src="Assets/join-us/hacker-img.png" alt="Maryam Mirzakhani">
+                    <h5 class="card-title">Maryam Mirzakhani</h5>
+                    <a class="btn" href="">HACKER</a>
+                    <p class="card-text">Hacker Applications are open!</br></br>
+                    Come out and join us for ElleHacks 2023</p>
+                </div>
+            </div>
+            <div class="card" id="mentor-card">
+                <img class="card img-fluid" id="app-background" width="463px" height="918px" src="Assets/join-us/mentor-background.png">
+                <div class="card-img-overlay">
+                    <img class="card-img-top" src="Assets/join-us/mentor-img.png" alt="Maryam Mirzakhani">
+                    <h5 class="card-title">Mary Jackson</h5>
+                <a class="btn" href="">MENTOR</a>
+                    <p class="card-text">Do you have knowledgeable information about tech and are eager to teach? Let us know</p>
+                    </div>
+            </div>
+            <div class="card" id="volunteer-card">
+                <img class="card img-fluid" id="app-background" width="458.5px"height="918px" src="Assets/join-us/volunteer-background.png">
+                <div class="card-img-overlay">
+                    <img class="card-img-top" src="Assets/join-us/volunteer-img.png" alt="Maryam Mirzakhani">
+                    <h5 class="card-title">Jon Hall</h5>
+                    <a class="btn" href="">VOLUNTEER</a>
+                    <p class="card-text">Want to help out? Apply here and we’ll set you up with a task! Free T-shirts for Volunteers</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- @Luana register page section ends here -->
+
+<div class="container-fluid-xl" id="FAQ-section">
+    <h1>FAQ <span class="backslash-purple">/</span></h1>
+</div>
+<div class="FAQ">
+    <div class="row" id="faq-row">
+        <div class="col-sm" id="column-quest">
+            <div class="container" id="quest-box">
+                <div href="#ans1" class="accordion-header" data-toggle="collapse">
+                    <p>When and where is ElleHacks?</p>
+                    <hr>
+                </div>
+                <div id="ans1" class="collapse">
+                    <p>ElleHacks will be hosted at York University (Keele Campus) in Toronto, Ontario, Canada on February 17-19, 2023. </p>
+                </div>
+            </div>
+            <div class="container" id="quest-box">
+                <div href="#ans2" class="accordion-header" data-toggle="collapse">
+                    <p>What's a hackathon?</p>
+                    <hr>
+                </div>
+                <div id="ans2" class="collapse">
+                    <p>A competition where students work together to design solutions for a given challenge.</p>
+                    <p>At ElleHacks, you'll get to make tons of new friends, network with recruiters, and pick up cool skills through workshops, speaker sessions, activities, and games!</p>
+                </div>
+            </div>
+            <div class="container" id="quest-box">
+                <div href="#ans3" class="accordion-header" data-toggle="collapse">
+                    <p>Do I need to know how to code?</p>
+                    <hr>
+                </div>
+                <div id="ans3" class="collapse">
+                    <p>Nope! Students of all skill levels are welcome at ElleHacks (even if you have absolutely zero experience)! Tons of hackathon participants are total newbies, and we'll be there to support you through workshops and mentorship :)</p>
+                    <p>Still not sure? Check this out for inspiration: <a href="https://medium.com/tfogo/hackathons-are-for-beginners-77a9c9c0e000#.cj21niskl">https://medium.com/tfogo/hackathons-are-for-beginners-77a9c9c0e000#.cj21niskl</a></p>
+                </div>
+            </div>
+            <div class="container" id="quest-box">
+                <div href="#ans4" class="accordion-header" data-toggle="collapse">
+                    <p>Who can apply?</p>
+                    <hr>
+                </div>
+                <div id="ans4" class="collapse">
+                    <p>We welcome all students from underrepresented gender groups (ie. women and gender-diverse students) who either live or attend school in North America.</p>
+                    <p>Only students who are currently enrolled at a high school or college/university, or have graduated within the past 12 months, are eligible to attend. You must bring a valid student or government issued ID card for admission.</p>
+                </div>
+            </div>
+            <div class="container" id="quest-box">
+                <div href="#ans5" class="accordion-header" data-toggle="collapse">
+                    <p>Can I still join if I'm not from an underrepresented gender group?</p>
+                    <hr>
+                </div>
+                <div id="ans5" class="collapse">
+                    <p>This event was created to support underrepresented genders in tech. As such, ElleHacks is meant to be a space for these groups to thrive.</p>
+                    <p>If this isn't you, but you would like to participate in other ways, we welcome anyone to volunteer! Please check out social media accounts in November for more information and a volunteer application.</p>
+                </div>
+            </div>
+            <div class="container" id="quest-box">
+                <div href="#ans6" class="accordion-header" data-toggle="collapse">
+                    <p>Is ElleHacks in-person this year?</p>
+                    <hr>
+                </div>
+                <div id="ans6" class="collapse">
+                    <p>Yes! ElleHacks will be in-person at York University in Toronto. There will be no option to participate in the event virtually</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm" id="column-quest">
+            <div class="container" id="quest-box">
+                <div href="#ans7" class="accordion-header" data-toggle="collapse">
+                    <p>What in-person accommodations are available?</p>
+                    <hr>
+                </div>
+                <div id="ans7" class="collapse">
+                    <p>This FAQ response is coming soon :)</p>
+                </div>
+            </div>
+            <div class="container" id="quest-box">
+                <div href="#ans8" class="accordion-header" data-toggle="collapse">
+                    <p>When is the last day to sign up?</p>
+                    <hr>
+                </div>
+                <div id="ans8" class="collapse">
+                    <p>Our hacker applications will close in December 2023. Apply now - there are no hard or long questions, just basic information!</p>
+                </div>
+            </div>
+
+            <div class="container" id="quest-box">
+                <div href="#ans9" class="accordion-header" data-toggle="collapse">
+                    <p>Will there be swag?</p>
+                    <hr>
+                </div>
+                <div id="ans9" class="collapse">
+                    <p>Yess!!</p>
+                </div>
+            </div>
+            <div class="container" id="quest-box">
+                <div href="#ans10" class="accordion-header" data-toggle="collapse">
+                    <p>I need to find a team?</p>
+                    <hr>
+                </div>
+                <div id="ans10" class="collapse">
+                    <p>At ElleHacks, we welcome you to compete in teams of 1-4 students.
+                        <br> → If you already have a team, we'll ask you to list their names during registration, the first day the event. <br> → If you'd like to look for teammates later, we'll open our Discord server a week early for you to search
+                        for a team. <br> → If you'd like help finding a team, we can match you with a team before or on the first day of the event.
+                    </p>
+                </div>
+            </div>
+            <div class="container" id="quest-box">
+                <div href="#ans11" class="accordion-header" data-toggle="collapse">
+                    <p>Can I start working on my project before the event?</p>
+                    <hr>
+                </div>
+                <div id="ans11" class="collapse">
+                    <p>No. All participants are required to start and complete their project during the hackathon. Any project that starts before the event will be disqualified. </p>
+                </div>
+            </div>
+
+            <div class="container" id="quest-box">
+                <div href="#ans12" class="accordion-header" data-toggle="collapse">
+                    <p>Can I submit a project I've used at another hackathon/school assignment/anywhere else?</p>
+                    <hr>
+                </div>
+                <div id="ans12" class="collapse">
+                    <p>No. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- @Anusha Location/Contact Us section -->
+<div class="container-fluid-xl" id="contactus">
+    <!--    <h1>Location, Contact Us Section</h1>-->
+    <!-- Location container-->
+    <div class="container-fluid" id="location">
+        <div class="location-title">LOCATION
+            <img src="./Assets/contactus/pin.png" alt="pin">
+        </div>
+        <!-- Event date info -->
+        <div id="date">
+<!--            <h2 id="ellehacks">ELLE&lt;/&gt;HACKS</h2>-->
+            <h2 id="ellehacks">ELLE/HACKS</h2>
+            <br>
+            <img class="logo" src="ElleHacks_Logo_Transparent.png" alt="home">
+            <p id="dates">February 17-19, 2023</p>
+        </div>
+        <svg height="282" width="480">
+            <line x1="30" y1="282" x2="490" y2="282" />
+        </svg>
+        <!-- Event location info -->
+        <div id="location-info">
+            <h2 id="building">Victor Phillip Dahdaleh Building</h2>
+            <br>
+            <a href="https://www.google.com/maps/place/Victor+Phillip+Dahdaleh+Building,+88+The+Pond+Rd,+North+York,+ON
+            +M3J+0K9/@43.7711574,-79.5007935,17z/data=!3m1!4b1!4m5!3m4!1s0x882b2e2450b5d375:0x625f17f9f667feb0!8m2!3d43.
+            7711574!4d-79.5007935">
+                <p id="address">88 The Pond Rd, North York, ON M3J 2S5</p>
+            </a>
+        </div>
+        <img id="db" src="./Assets/contactus/victor phillip db.png">
+        <img id="map" src="./Assets/contactus/Google Maps image.png">
+    </div>
+
+    <!-- Contact us container -->
+    <div class="container-fluid" id="contact-us">
+        <div class="contact-title">HAPPY HACKING!</div>
+        <p> Questions? Contact us at
+            <a href="mailto::info@ellehacks.com" style="color:#FFFFFF;">
+                info@ellehacks.com
+            </a>
+        </p>
+        <!-- Social media icons -->
+        <div id="contact-socials" class="socials">
+            <a href="mailto::info@ellehacks.com">
+                <img class="social-icons" src="Assets/socials/ic_round-email.png" alt="email">
+            </a>
+            <a href="https://www.instagram.com/ellehacks/">
+                <img class="social-icons" src="./Assets/socials/instagram.png" alt="instagram">
+            </a>
+            <a href="https://www.tiktok.com/@ellehacks">
+                <img class="social-icons" src="./Assets/socials/logos_tiktok-icon.png" alt="tiktok">
+            </a>
+            <a href="https://www.linkedin.com/company/ellehacks/">
+                <img class="social-icons" src="./Assets/socials/linkedin.png" alt="linkedin">
+            </a>
+            <a href="https://twitter.com/ellehacks">
+                <img class="social-icons" src="./Assets/socials/twitter.png" alt="twitter">
+            </a>
+            <a href="https://www.facebook.com/ellehacks/">
+                <img class="social-icons" src="./Assets/socials/facebook.png" alt="facebook">
+            </a>
+        </div>
+
+        <!-- Right graphics -->
+        <img id="woman-writer" src="./Assets/contactus/woman-writer.png">
+        <canvas id="rect1" width="179" height="334"></canvas>
+    </div>
+</div>
+<!-- @Anusha Location/Contact Us section ends here -->
+
+
+
+
+<!-- for carousel (not sure! check the websitefor more information) -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>
