@@ -1,0 +1,1159 @@
+
+/* ************************************* */
+/* <!-- @Anusha Landing Page section --> */
+
+/* @Anusha home container */
+.container-fluid-xl#home-section {
+    width: 100%;
+    height: 865px;
+}
+
+/* @Anusha set dimension of navbar ribbon */
+#home-section .navbar {
+    position: fixed;
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 64px;
+    opacity: 0.8;
+}
+
+/* @Anusha ElleHack icon */
+#home-section .navbar .navbar-brand .nav-img {
+    position: absolute;
+    width: 59px;
+    left: 17px;
+    top: 2px;
+
+}
+
+/* @Anusha navbar menu */
+#home-section .navbar .navbar-nav {
+    position: absolute;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 917px;
+    height: 32px;
+    right: 15px;
+
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 1.1px;
+    text-align: center;
+}
+
+/* @Anusha navbar menu items */
+.navbar .nav-link {
+    color: #8872AB;
+}
+
+/* @Anusha */
+.navbar .nav-link:active {
+    color: #000;
+}
+
+/* @Anusha set home/landing page section */
+.container-fluid#home {
+    position: absolute;
+    width: 100%;
+    height: 795px;
+    left: 0px;
+    top: 70px;
+
+    background: #E5D5FF;
+    /*background: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, #E5D5FF 100%);*/
+}
+
+/* @Anusha ElleHacks2023 title */
+#home .ElleHacks2023 {
+    position: absolute;
+    width: 953px;
+/*    height: 145px;*/
+    left: 265px;
+    top: 106px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 120px;
+    line-height: 145px;
+    letter-spacing: 1.1px;
+    text-align: center;
+
+    color: #000000;
+}
+
+/* @Anusha tagline */
+#home .tagline {
+    position: absolute;
+    width: 100%;
+    top: 235px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    text-align: center;
+
+    color: #000000;
+}
+
+/* @Anusha countdown background */
+#home .countdown {
+    position: relative;
+    width: 290px;
+    height: 74px;
+    top: 323px;
+    left: 593px;
+    border-radius: 500px;
+    background-color: #8872AB;
+}
+
+/* @Anusha countdown display */
+#home .countdown .timer {
+  position: absolute;
+  left: 22px;
+  top: 10px;
+  width: 240px;
+  height: 50px;
+  text-align: center;
+  vertical-align: middle;
+  display: table;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 58px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+/* @Anusha place date and location */
+#home .date-location {
+    position: absolute;
+    width: 394px;
+    top: 433px;
+    left: 560px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    text-align: center;
+
+    color: #000000;
+}
+
+/* @Anusha removes blue underline from icons
+ * for #home and #contactus
+**/
+.socials a {
+    text-decoration: none;
+}
+
+/* @Anusha set social icons */
+#home .socials {
+    position: absolute;
+    justify-content: space-between;
+    text-align: center;
+
+    margin: 0 auto;
+    width: 100%px;
+    top: 523px;
+    left: 595px;
+}
+
+/* @Anusha set icons spacing */
+.social-icons {
+  width: 30px;
+  margin: 0;
+  margin-left: 15px;
+  padding: 0;
+  opacity: 1;
+}
+
+/* @Anusha hover actions on icons */
+.social-icons:hover {
+  opacity: 0.7;
+}
+
+/* @Anusha */
+#home .skyline {
+    position: absolute;
+    width: 100%;
+    height: 266px;
+    left: -0.15px;
+    top: 522.81px;
+/*    mix-blend-mode: lighten;
+    filter: brightness(100%); */
+    filter: invert();
+    mix-blend-mode: darken;
+}
+/* <!-- @Anusha Landing page section end here --> */
+/* ********************************************** */
+
+
+/* <!-- @Luana Join Us page section starts here --> */
+/* ********************************************** */
+
+
+/* @Luana: main div */
+
+#join-us-blocks{
+    background: #8872AB;
+}
+
+#join-us,.container-fluid{
+   position: relative;
+   width: 100%;
+   height: 1200px;
+   left: -5%;
+   top: 0px;
+   padding: 0px;
+   background: #8872AB;
+   /* border-top: 100%; */
+   border: 0;
+   margin: 0 auto;
+    
+}
+ /* @Luana: head text */   
+#join-us #join-us-head h1{
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 90px;
+        line-height: 117px;
+        padding-left: 50px;
+    
+}
+/* @Luana: 3 main cards*/
+#join-us #join-us-cards{
+        position: relative;
+        width: 1439.08px;
+        height: 944px;
+        align-content: center;
+        margin: 50px;
+}
+/* @Luana: each card */
+#join-us .card{
+        background: transparent;
+        border: #8872AB;
+        float:left;
+        position: relative;
+        display: flex;
+}
+/* @Luana: img mentor, hacker and volunteer*/
+#join-us .card-img-top{
+        position: absolute;
+        width: 400px;
+}
+/* @Luana: info and img mentor, hacker and volunteer */
+#join-us .card-img{
+        padding: 0%;
+        width: 447px;
+        position:absolute;
+}
+/* @Luana: img hacker */
+#join-us #hacker-card .card-img-top{
+        left: 90px;
+}
+/* @Luana: img mentor */    
+#join-us #mentor-card .card-img-top{
+       left: 58px;
+}
+/* @Luana: img volunteer */   
+#join-us #volunteer-card .card-img-top{
+        left:70px;
+}
+
+/* @Luana: persona name */ 
+#join-us .card-title{
+        position: relative;
+        width: 285px;
+        height: 36px;
+        top: 385px;
+        font-family:  'DM Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 36px;
+        text-align: center;
+        
+        color: #000000;
+}
+/* @Luana: names per card */     
+#join-us #hacker-card .card-title{
+        left: 140px;   
+}
+#join-us #mentor-card .card-title{
+    left: 110px;
+}
+#join-us #volunteer-card .card-title{
+  left: 120px;
+}
+/* @Luana: button */   
+#join-us .btn{
+    position: absolute;
+    width: 281px;
+    height: 74px;
+    top:450px;
+    padding: 10px 20px;
+    margin: 4px 2px;
+    border-radius: 16px;
+    border-color: #000000;    
+
+    font-family:'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 58px;
+    text-align: center;
+    background-color: #ffffff;
+    color: #000000;
+}
+/* @Luana: btn per card */       
+#join-us #hacker-card .btn{
+    left: 140px;
+}
+    
+#join-us #mentor-card .btn{
+    left: 110px;
+}
+    
+#join-us #volunteer-card .btn{
+    width: 330px;
+    left: 80px;
+}
+
+/* @Luana: card descripition */       
+#join-us .card-text{
+    position: relative;
+    width: 333px;
+    height: 195px;
+    top:500px;
+    font-family:  'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    color: #000000;
+}
+/* @Luana: each card descripition */   
+#join-us  #hacker-card .card-text{
+    left: 115px;
+}
+    
+#join-us  #mentor-card .card-text{
+    left: 75px;
+}
+#join-us  #volunteer-card .card-text{
+    left: 80px;
+}
+
+/* @Luana: card 3 layer backgroud */
+#join-us #app-background{
+    margin-left:60px;
+    padding: -2%;     
+}
+ 
+ 
+/* <!-- @Luana Join Us page section ends here --> */
+/* ********************************************** */
+
+
+.background
+{
+    background: linear-gradient(180deg, #E5D5FF 0%, #F2EAFF 100%);
+}
+
+/* ********************************************** */
+/* @Anusha @Hasti 'About Us' section start */
+.aboutus-section
+{
+    width: 90%;
+    font-family: "DM Sans";
+    /* background: linear-gradient(180deg, #E5D5FF 0%, #F2EAFF 100%); */
+    padding: 50px;
+    margin: 0 auto;
+}
+
+/* about us header */
+.about-us-heading {
+    display: inline;
+    font-size: 85px;
+    margin: 5px;
+    width: 50%;
+    text-align: left;
+   
+}
+
+/* flex properties */
+.grid
+{
+    display: flex;
+    margin: 0 auto;
+}
+
+.quote
+{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+    /* margin-right: 1px;
+    margin-top: 40px;
+    margin-bottom: 20px; */
+    align-items:flex-start;
+}
+
+.quote-line
+{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 8px;
+    margin-bottom: 8px ;
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.quote-line p
+{
+    margin: 0px;
+}
+
+/* Quote line p + img + p on top of carousel */
+#aboutus #p1 {
+    width: 250px;
+    height: 54px;
+    margin-left: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 54px;
+    text-align: right;
+
+    color: #8872AB;
+}
+
+#aboutus #code{
+    width: 241px;
+    height: 55px;
+    align-items: center;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#aboutus #p2 {
+    width: 400px;
+    height: 54px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 54px;
+    text-align: left;
+    color: #8872AB;
+}
+
+/*Carousel*/
+.col2
+{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 570px;
+    margin-right: 0px;
+}
+
+
+/* !!!!!!!!!!!!!!!!  CHANGE THE DIMENSION AFTER CHOOSING THE PHOTOES  !!!!!!!!!!!!!! */
+.container#carousel
+{
+    width: 500px;
+    margin: 0 auto;
+    height: 500px;
+    margin-top: 20px;
+}
+
+.carousel-inner img
+{
+    max-width: 100%;
+    max-height: 100%;
+    align-items: center;
+    background-color: white;
+    object-fit: contain;
+}
+
+/* About us description text */
+#aboutus #p3 {
+
+    margin: 10px;
+    padding: 50px;
+    font-style: normal;
+    border-bottom: solid white;
+    font-size: 30px;
+    text-align: center;
+
+    color: #000000;
+}
+
+/* 'About Us' section ends*/
+/* ********************************************** */
+
+/* ********************************************** */
+/* @Hasti 'Meet The Team' section start */
+.team
+{
+    padding: 50px;
+    width: 100%;
+    margin: 0 auto;
+
+    font-family: 'DM Sans';
+    color:black;
+}
+
+.team-heading
+{
+
+    display: inline;
+    font-size: 85px;	
+    margin: 5px;
+    width: 50%;
+    text-align: left;
+    word-spacing: -0.1em;	
+    letter-spacing: -0.03em;
+}
+
+	
+.backslash-purple {	
+    color: #8872AB;	
+}
+
+/*flex properties*/
+.grid
+{
+    display: flex;
+    margin: 0 auto;
+}
+
+.co-chairs
+{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 600px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.executives
+{
+    display: flex;
+    margin: 0 auto;
+}
+
+.lms-exe
+{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 570px;
+    margin-left: 0px;
+}
+
+.IT-exe
+{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 570px;
+    margin-right: 0px;
+}
+
+.sponsor-exe
+{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.team-member
+{
+    margin: 8px;
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: 0.3s;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transition-property: all;
+    text-align: center;
+    
+}
+
+.team-member:hover
+{
+    box-shadow: 4px 4px 20px 0 rgb(0, 0, 0 , 40%), -4px -4px 20px 0 rgba(164, 145, 194, 80%);
+}
+
+
+/* Images */
+.image
+{
+    width: 150px;
+    height: 150px;
+}
+.team-img
+{
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    /* border: solid #8872AB; */
+    border-bottom: solid 5px #8872AB;
+    
+}
+
+.team-img-fun
+{
+    display: none;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    /* border: solid #8872AB; */
+    border-bottom: solid 5px #8872AB;}
+
+.image:hover .team-img-fun
+{
+    display: inline;
+    margin: 1px;
+}
+.image:hover .team-img
+{
+    display: none;
+    margin: 1px;
+}
+
+
+
+/* Name and title */
+.team-name
+{
+    color: black;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 0;
+
+}
+
+.team-title
+{
+    color: black;
+    font-style: normal;
+    text-align: center;
+    margin-top: 4px;
+}
+
+.team-member h4 {
+    display: block;
+    font-size: 16px;
+    margin-block-start: 1.33em;
+    /* margin-block-end: 1.33em; */
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+/* 'Meet The Team' section end */
+/* ********************************************** */
+
+/* **************************************** */
+/* FAQ section starts */
+/* @Luana @Hasti
+  FAQ page
+*/
+
+  .FAQ
+  {
+    padding: 50px;
+    width: 100%;
+    margin: 0 auto;
+    top: 200px;
+    position: relative;
+  }
+  
+  /* @Luana 
+    big h1 in with "FAQ" written;
+  */
+#FAQ-section{
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    
+ }
+  
+  #FAQ-section h1{
+    display: inline;
+    font-size: 85px;
+    margin: 5px;
+    margin-left: 100px;
+    width: 50%;
+    text-align: left;
+    word-spacing: -0.1em;
+    letter-spacing: -0.03em;
+    /* text-align: centr;
+    color: #9747FF; */
+    margin-bottom: 50px;
+    position: relative;
+  }
+  
+  
+  
+  /* @Luana 
+    two sides of the faq
+  */
+  #column-quest{
+    float: left;
+    width: 40%;
+    padding:0% 5%;
+    display: block;
+    position: relative;
+  } 
+  
+  @media (max-width: 1000px) {
+  
+    #column-quest {
+      float: left;
+      width: 100%;
+      padding:0% 5%;
+      display: block;
+      
+    } 
+  }
+  
+  /* @Luana 
+    horizontal grey line
+  */
+  .accordion-header hr{
+    border:  solid #8872AB 2px;
+    opacity: 0.5;
+    margin-top: 1px;
+    margin-bottom: 10px;
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+    transform: rotate(-0.46deg);
+  }
+  /* @Luana 
+    summary = questions from the faq
+    formating bellow
+  */
+  .accordion-header {	  
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: black;
+    letter-spacing: -0.015em;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    /* color: #9747FF; */
+    width: 100%;
+    display: block;
+    list-style: none;
+    transform: scaleX(-1);
+    position:relative;
+  }
+  
+  .accordion-header p{
+    overflow: hidden;
+    transform: scaleX(-1);
+    margin-top: 30px;
+    margin-bottom: 5px;
+  }
+  /* @Luana 
+    details = ans from the faq
+    formating bellow
+  */
+  #quest-box.container { 
+    box-shadow:0 0 20px #ffffff;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #8872AB;
+    opacity: 1;
+    margin-bottom: 20px;
+  
+  }
+   .collapsing p , .collapse.show p {
+    margin-left: 15px;
+   }
+  
+   .collapse p a{	
+    color: #8872AB;
+  }
+  
+  /* @Luana 
+    add + and - animation
+  */
+  
+  
+  .accordion-header::before { 
+      content:"+"; 
+      color: #8872AB;
+      float: left;
+      font-size: 30px;
+      transform: scaleX(-1);    
+  }
+  .accordion-header[aria-expanded="true"]::before {
+      content:"-"; 
+      color: #8872AB;
+      float: left;
+      font-size: 30px;
+      transform: scaleX(-1);
+  }
+/* FAQ section ends */
+/* ******************************************** */
+
+/* **************************************** */
+/* Sponsor section starts */
+.container-fluid-xl#sponsors {
+    position: absolute;
+    width: 100%;
+    margin-left: -3%;
+    height: 1664px;
+
+    background: linear-gradient(rgba(255,255,255,1) 0%, rgba(136,114,171,1) 100%);
+}
+
+.sponsors-title {
+    position: absolute;
+    width: 715px;
+    height: 110px;
+    left: 26px;
+    top: 13px;
+}
+
+.sponsors-title h1{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 64px;
+    color: #000000;
+}
+
+.sponsors-container {
+    position: absolute;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    height: 100%;
+    top: 120px;
+}
+
+.sponsors-container h3 {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 64px;
+    color: #8872AB;
+}
+
+.sponsors-list {
+    align-items: center;
+    margin: 16px 0;
+}
+
+.gold {
+    display: inline-block;
+    margin: 0 100px;
+}
+
+.gold img {
+    width: auto;
+    height: 250px;
+}
+
+.silver {
+    display: inline-block;
+    margin: 0 100px;
+}
+
+.silver img {
+    width: auto;
+    height: 250px;
+}
+
+.bronze-sponsors h3 {
+    color: #FFFFFF;
+}
+
+.bronze {
+    display: inline-block;
+    margin: 3em 100px;
+}
+
+.bronze img {
+    width: auto;
+    height: 150px;
+}
+
+.community-sponsors h3 {
+    color: #FFFFFF;
+}
+
+.community {
+    display: inline-block;
+    margin: 0 100px;
+}
+
+.community img {
+    width: auto;
+    height: 150px;
+}
+/* Sponsor section ends */
+
+
+/* ******************************************** */
+/* <!-- @Anusha Location/Contact Us section --> */
+
+/* @Anusha home location/contact us container */
+.container-fluid-xl#contactus {
+    width: 100%;
+    height: 922px;
+    top: 6820px;
+}
+
+/* @Anusha location container */
+.container-fluid#location {
+    position: absolute;
+    width: 100%;
+    height: 591px;
+    top: 7740px;
+    margin-left: 2%;
+
+    background: #E5D5FF;
+}
+
+/* @Anusha location title */
+#location .location-title {
+    position: absolute;
+    width: 500px;
+    height: 119.32px;
+    left: 531.78px;
+    top: 13px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 109px;
+    letter-spacing: 1.1px;
+    text-align: center;
+
+    color: #000000;
+    mix-blend-mode: multiply;
+}
+
+/* @Anusha date placement */
+#location #date {
+    position: absolute;
+    width: 545px;
+    height: 170.71px;
+    left: 30px;
+    top: 100px;
+
+    font-style: normal;
+    padding-left: 100px;
+    color: #000000;
+}
+
+/* @Anusha Ellehacks event name */
+#location #ellehacks {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 1.8;
+    letter-spacing: 1.1px;
+}
+
+/* @Anusha event dates */
+#location #dates {
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 1.2;
+    letter-spacing: 1.2px;
+}
+
+/* @Anusha logo icon at date info */
+#location .logo {
+    position: absolute;
+    width: 95.27px;
+    height: 91.95px;
+    left: -10px;
+    top: 67.48px;
+
+}
+
+/* @Anusha line separator */
+#location line {
+    stroke: rgb(0,0,0);
+    stroke-width: 7;
+}
+
+/* @Anusha location placement */
+#location #location-info {
+    position: absolute;
+    width: 612.51px;
+    height: 146.76px;
+    top: 338px;
+    left: -29px;
+
+    font-style: normal;
+    text-align: center;
+    color: #000000;
+}
+
+/* @Anusha building location */
+#location #building {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 42px;
+    letter-spacing: 1.1px;
+    text-align: center;
+}
+
+/* @Anusha building address */
+#location #address {
+    width: 437.67px;
+    height: 61.54px;
+    margin-left: 70px;
+
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 1.2px;
+    text-align: center;
+
+    color: #000000;
+}
+
+/* @Anusha victor phillip db image */
+#location #db {
+    position: absolute;
+    width: 365px;
+    height: 326px;
+    left: 550px;
+    top: 158px;
+    border: 6px solid #000000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+/* @Anusha google map image */
+#location #map {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 470px;
+    height: 321px;
+    right: 30.8px;
+    top: 163px;
+
+    border: 5px solid #000000;
+}
+
+/* @Anusha contact us container */
+.container-fluid#contact-us {
+    position: absolute;
+    width: 100%;
+    height: 331px;
+    top: 7411px;
+    margin-left: 2%;
+    background: #8872AB;
+}
+
+/* @Anusha contact-us title */
+#contact-us .contact-title {
+    position: absolute;
+    width: 800px;
+    height: 90.2px;
+    left: -25px;
+    top: 6px;
+    display: block;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 90px;
+    line-height: 109px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+/* @Anusha contact-us text line */
+#contact-us p {
+    position: absolute;
+    width: 684px;
+    height: 25px;
+    left: 10px;
+    top: 136px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #FFFFFF;
+}
+
+/* @Anusha social media icons in contact-us */
+#contact-us .socials {
+    position: absolute;
+    width: 307px;
+    height: 35px;
+    left: 10px;
+    top: 190px;
+}
+
+/* @Anusha woman-writer image */
+#contact-us #woman-writer {
+    position: absolute;
+    width: 500px;
+    height: 100%;
+    right: 22px;
+}
+
+/* @Anusha rectangle stripe */
+#contact-us canvas {
+    position: absolute;
+    right: 208px;
+
+    background: rgba(255, 255, 255, 0.24);
+    mix-blend-mode: hard-light;
+}
+
+/* <!-- @Anusha Location/Contact Us section end here --> */
+/* ***************************************************** */
+
+
