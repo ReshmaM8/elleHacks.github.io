@@ -836,6 +836,105 @@
 /* FAQ section ends */
 /* ******************************************** */
 
+/* **************************************** */
+/* Sponsor section starts */
+.container-fluid-xl#sponsors {
+    position: absolute;
+    width: 100%;
+    margin-left: -3%;
+    height: 1664px;
+
+    background: linear-gradient(rgba(255,255,255,1) 0%, rgba(136,114,171,1) 100%);
+}
+
+.sponsors-title {
+    position: absolute;
+    width: 715px;
+    height: 110px;
+    left: 26px;
+    top: 13px;
+}
+
+.sponsors-title h1{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 64px;
+    color: #000000;
+}
+
+.sponsors-container {
+    position: absolute;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    height: 100%;
+    top: 120px;
+}
+
+.sponsors-container h3 {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 64px;
+    color: #8872AB;
+}
+
+.sponsors-list {
+    align-items: center;
+    margin: 16px 0;
+}
+
+.gold {
+    display: inline-block;
+    margin: 0 100px;
+}
+
+.gold img {
+    width: auto;
+    height: 250px;
+}
+
+.silver {
+    display: inline-block;
+    margin: 0 100px;
+}
+
+.silver img {
+    width: auto;
+    height: 250px;
+}
+
+.bronze-sponsors h3 {
+    color: #FFFFFF;
+}
+
+.bronze {
+    display: inline-block;
+    margin: 3em 100px;
+}
+
+.bronze img {
+    width: auto;
+    height: 150px;
+}
+
+.community-sponsors h3 {
+    color: #FFFFFF;
+}
+
+.community {
+    display: inline-block;
+    margin: 0 100px;
+}
+
+.community img {
+    width: auto;
+    height: 150px;
+}
+/* Sponsor section ends */
 
 /* ******************************************** */
 /* <!-- @Anusha Location/Contact Us section --> */
