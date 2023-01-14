@@ -1,4 +1,378 @@
 /* @Luana 
+body{
+  width: 98%;
+  font-family: 'DM Sans';
+}
+
+h3 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    font: bold;
+}
+
+.nav-grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.nav-bar {
+    position: fixed;
+    background-color: #d6a3f4;
+    width: 100%;
+    z-index: 10;
+    opacity: 0.8;
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    width: 100%;
+
+}
+
+.nav-item
+{
+  margin: 1px;
+  padding: 1px;
+}
+
+.nav-menu a
+{
+  display: block;
+}
+
+.nav-img {
+    max-width: 50px;
+    margin: 10px;
+    display: inline-block;
+    float: left;
+} */
+
+.nav-link {
+    text-decoration: none;
+    /* float: left; */
+    width: 10%;
+    height: 10%;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.nav-link:hover {
+    opacity: 1;
+    transition: 0.1s;
+}
+
+.nav-title {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* margin-left: 5px; */
+    text-align: center;
+    color: black;
+}
+
+.grid {
+    display: flex;
+    width: 100%;
+}
+
+.fullscreen {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* title section */
+.title-section
+{
+  display: block;
+}
+.ElleHacks2023 {
+    text-align: center;
+    vertical-align: text-top;
+    font-size: 90px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    /* left:50%; 
+    margin-left:-X;
+    top: 166px; */
+    top: 50%;
+    left: 225px;
+    margin: -50px 0 0 -50px;
+    width: 890px;
+    height: 115px;
+    position: absolute;
+    line-height: auto;
+    color: #000000;
+}
+
+.tagline {
+    position: absolute;
+    /* width: 1197px; */
+    width: 98%; /* hasti */
+    height: 43px;
+    margin-left: 9%;
+    margin-right: 10%;
+    top: 270px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    
+    line-height: 48px;
+    color: #000000;
+}
+
+.tagline p
+{
+  padding: 5px;
+  font-size: 30px;
+  color: #DE8EE4;
+}
+
+/* .register {
+    position: absolute;
+    left: 650px;
+    right: 605px;
+    top: 373px;
+    bottom: 530px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: black;
+} */
+
+#register-button
+{
+    top: 373px;
+    bottom: 530px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 44px;
+    
+    /* display: flex;
+    align-items: center; */
+    text-align: center;
+    color: white;
+    border-radius: 37px;
+    border-style: none;
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.3);
+    width: 231px;
+    height: 66px;
+    background-color: #DE8EE4;
+    top: 340px;
+    left: 615px;
+    right: 605px;
+    position: absolute;
+}
+
+/* .rectangle {
+    border-radius: 37px;
+    width: 231px;
+    height: 66px;
+    background-color: #DE8EE4;
+    top: 340px;
+    left: 615px;
+    position: absolute;
+} */
+
+.place_date {
+    text-align: center;
+    vertical-align: text-top;
+    font-size: 32px;
+    font-family: 'DM Sans';
+    left: 510px;
+    top: 430px;
+    width: 443px;
+    height: 84px;
+    position: absolute;
+    line-height: auto;
+    color: #000000;
+}
+
+.rectanglep {
+    height: 200px;
+    background-color: #8872ab;
+    border: 1px solid #e5d5ff;
+    width: 100%;
+    top: 500px;
+    position: relative;
+    bottom: 200px;
+}
+
+/* ******************************** */
+/* <!--@Anusha About Us section --> */
+
+/* @Anusha About us container-fluid*/
+.container-fluid#aboutus{
+  position: absolute;
+  display: block;
+  /* width: 1467px; */
+  width: 98%;
+  height: 1107px;
+  left: 1px;
+  top: 865px;
+
+  background: linear-gradient(180deg, #E5D5FF 0%, #F2EAFF 100%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* @Anusha About us h2 title*/
+#aboutus h2 {
+    position: absolute;
+    /* width: 494px; */
+    width: 98%;
+    height: 132px;
+    left: 13px;
+    top: 24px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 90px;
+    line-height: 109px;
+    text-align: center;
+
+    color: #000000;
+}
+
+/* @Anusha About us 1st part of quote text*/
+#aboutus #p1 {
+    position: absolute;
+    width: 225px;
+    height: 66px;
+    left: 279px;
+    top: 156px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 54px;
+    text-align: center;
+
+    color: #8872AB;
+}
+/* @Anusha About us //code image */
+#aboutus #code{
+    position: absolute;
+    width: 352px;
+    height: 63px;
+    left: 503px;
+    top: 146px;
+
+}
+
+/* @Anusha About us 2nd part of quote text*/
+#aboutus #p2 {
+    position: absolute;
+    width: 346px;
+    height: 54px;
+    left: 862px;
+    top: 156px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 54px;
+    text-align: center;
+
+    color: #8872AB;
+}
+
+/* @Anusha About us description text*/
+#aboutus #p3 {
+    position: absolute;
+    /* width: 1317px; */
+    width: 98%;
+    height: 158px;
+    left: 91px;
+    top: 819px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 39px;
+    text-align: center;
+
+    color: #000000;
+}
+
+/* @Anusha About us slideshow container
+    >>>>> background to be removed
+    */
+#aboutus .slideshow-container {
+    position: absolute;
+    width: 998px;
+    height: 495px;
+    left: 234px;
+    top: 256px;
+
+    background: #D9D9D9;
+}
+
+/* @Anusha About us slideshow slides
+    made to display nothing by default
+    */
+#aboutus .slideshow-container .slides {
+    display: none;
+}
+
+/* @Anusha About us
+    Next and previous buttons of slideshow
+    */
+#aboutus .slideshow-container .prev, #aboutus .slideshow-container .next {
+  cursor: pointer;
+  position: absolute;
+  width: auto;
+
+  padding: 234px 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  user-select: none;
+}
+
+/* @Anusha About us
+    Position and border radius of background the "next button"
+    */
+#aboutus .next {
+  left: 955px;
+  border-radius: 3px 0 0 3px;
+}
+
+/* @Anusha About us
+    border radius of background the "prev button"
+    */
+ #aboutus .prev {
+   border-radius: 3px 0 0 3px;
+}
+
+/* @Anusha About us
+    Adds a translucent black background colour to buttons on hover
+    */
+#aboutus .prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+/* <!--@Anusha About Us section end here--> */
+/* **************************************** */
+
+/* @Luana
+
   FAQ page
 */
 .container-fluid#faq-page{

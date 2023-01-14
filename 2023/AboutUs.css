@@ -1,0 +1,134 @@
+.aboutus-section
+{
+    font-family: "DM Sans";
+    background: linear-gradient(180deg, #E5D5FF 0%, #F2EAFF 100%);
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* about us header */
+.about-us-heading {
+    display: inline;
+    font-size: 85px;
+    margin: 5px;
+    width: 50%;
+    text-align: left;
+   
+}
+
+/* flex properties */
+.grid
+{
+    display: flex;
+    margin: 0 auto;
+}
+
+.quote
+{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:end;
+    max-width: 100%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    align-items:flex-start;
+}
+
+.quote-line
+{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 8px;
+    margin-bottom: 8px ;
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.quote-line p
+{
+    margin: 0px;
+}
+
+#aboutus #p1 {
+    width: 250px;
+    height: 54px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 54px;
+    text-align: right;
+
+    color: #8872AB;
+}
+
+#aboutus #code{
+    width: 241px;
+    height: 55px;
+    align-items: center;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#aboutus #p2 {
+    width: 400px;
+    height: 54px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 54px;
+    text-align: left;
+
+    color: #8872AB;
+}
+
+/*Carousel*/
+.col2
+{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 570px;
+    margin-right: 0px;
+}
+
+
+/* !!!!!!!!!!!!!!!!  CHANGE THE DIMENSION AFTER CHOOSING THE PHOTOES  !!!!!!!!!!!!!! */
+.container
+{
+    width: 300px;
+    height: 300px;
+}
+
+.carousel-inner img
+{
+    max-width: 100%;
+    max-height: 100%;
+    align-items: center;
+    background-color: white;
+    object-fit: contain;
+}
+
+/* About us description text */
+#aboutus #p3 {
+
+    margin: 5px;
+    padding: 30px;
+    font-style: normal;
+    
+    font-size: 30px;
+    text-align: center;
+
+    color: #000000;
+}
